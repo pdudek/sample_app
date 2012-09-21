@@ -1,0 +1,1664 @@
+Script started on Tue 21 Aug 2012 03:00:21 PM EDT
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup': You have already activated rspec-expectations 2.11.2, but your Gemfile requires rspec-expectations 2.0.1. Using bundle exec may solve this. (Gem::LoadError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/setup.rb:7:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/boot.rb:6:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/application.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/environment.rb:2:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/spec_helper.rb:3:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `block in load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:18:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle install
+Using rake (0.9.2.2) 
+Using i18n (0.6.0) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.7) 
+Using builder (3.0.0) 
+Using activemodel (3.2.7) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.7) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.7) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.33) 
+Using activerecord (3.2.7) 
+Using activeresource (3.2.7) 
+Using bundler (1.1.5) 
+Using coffee-script-source (1.3.3) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.4) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.7) 
+Using coffee-rails (3.2.2) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (2.0.2) 
+Using libv8 (3.3.10.4) 
+Using nokogiri (1.5.5) 
+Using rails (3.2.7) 
+Using rspec-core (2.0.1) 
+Using rspec-expectations (2.0.1) 
+Using rspec-mocks (2.0.1) 
+Using rspec (2.0.1) 
+Using rspec-rails (2.0.1) 
+Using sass (3.2.0) 
+Using sass-rails (3.2.5) 
+Using sqlite3 (1.3.6) 
+Using therubyracer (0.10.2) 
+Using uglifier (1.2.7) 
+Using webrat (0.7.1) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec
+
+
+Finished in 0.00003 seconds
+[32m0 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup': You have already activated rspec-expectations 2.11.2, but your Gemfile requires rspec-expectations 2.0.1. Using bundle exec may solve this. (Gem::LoadError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/setup.rb:7:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/boot.rb:6:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/application.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/environment.rb:2:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/spec_helper.rb:3:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `block in load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:18:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ gem uninstall rspec-expe ctations
+
+Select gem to uninstall:
+ 1. rspec-expectations-2.0.1
+ 2. rspec-expectations-2.11.2
+ 3. All versions
+> 2
+Successfully uninstalled rspec-expectations-2.11.2
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ gem uninstall rspec-expecctations[A]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ [13Prspec spec/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewRendering instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ControllerExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewAssigns instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::HelperExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+[31mF[0m
+
+Failures:
+  1) PagesHelper add some examples to (or delete) /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb
+     [31mFailure/Error:[0m [31mUnable to find matching line from backtrace[0m
+     [31mundefined method `run_all' for []:Array[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/hooks.rb:116:in `run_hook_filtered'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:174:in `eval_before_alls'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:229:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block (2 levels) in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `map'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:11:in `report'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'[0m
+
+Finished in 0.00353 seconds
+[31m1 example, 1 failure[0m
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/hooks.rb:116:in `run_hook_filtered': undefined method `run_all' for []:Array (NoMethodError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:213:in `eval_after_alls'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:236:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block (2 levels) in run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block in run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:11:in `report'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle install
+Using rake (0.9.2.2) 
+Using i18n (0.6.0) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.7) 
+Using builder (3.0.0) 
+Using activemodel (3.2.7) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.7) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.7) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.33) 
+Using activerecord (3.2.7) 
+Using activeresource (3.2.7) 
+Using coffee-script-source (1.3.3) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.4) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.7) 
+Using coffee-rails (3.2.2) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (2.0.2) 
+Using libv8 (3.3.10.4) 
+Using nokogiri (1.5.5) 
+Using bundler (1.1.5) 
+Using rails (3.2.7) 
+Using rspec-core (2.0.1) 
+Using rspec-expectations (2.0.1) 
+Using rspec-mocks (2.0.1) 
+Using rspec (2.0.1) 
+Using rspec-rails (2.0.1) 
+Using sass (3.2.0) 
+Using sass-rails (3.2.5) 
+Using sqlite3 (1.3.6) 
+Using therubyracer (0.10.2) 
+Using uglifier (1.2.7) 
+Using webrat (0.7.1) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rails g rspec:[K[K[K[K[K[K[K[K[K[K[K[K[K[Kautotest
+loading autotest/rails_rspec2
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -S /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/bin/rspec --autotest '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb' '/home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb'
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewRendering instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ControllerExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewAssigns instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::HelperExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+[31mF[0m
+
+Failures:
+  1) PagesHelper add some examples to (or delete) /home/d/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/hooks.rb:116:in `run_hook_filtered'udekpj/rails_projects/sample_app/spec/helpers/pag: esundefined method `run_all' for []:Array_ (hNoMethodErrore)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:213:in `eval_after_alls'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:236:in `run'
+lp	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block (2 levels) in run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `map'
+er	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block in run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:11:in `report'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'
+_s	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+pe	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+c.rb
+     [31mFailure/Error:[0m [31mUnable to find matching line from backtrace[0m
+     [31mundefined method `run_all' for []:Array[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/hooks.rb:116:in `run_hook_filtered'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:174:in `eval_before_alls'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:229:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block (2 levels) in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `map'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:11:in `report'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'[0m
+
+Finished in 0.00408 seconds
+[31m1 example, 1 failure[0m
+sh: 1: notify-send: not found
+^CInterrupt a second time to quit
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -S /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/bin/rspec --autotest '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb' '/home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb'
+^[[A^[[B        ^CInterrupt a second time to quit
+
+Exiting... Interrupt again to exit immediately.
+
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewRendering instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ControllerExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewAssigns instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::HelperExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/formatters/progress_formatter.rb:25:in `write': Broken pipe - <STDOUT> (Errno::EPIPE)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/formatters/progress_formatter.rb:25:in `puts'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/formatters/progress_formatter.rb:25:in `start_dump'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:74:in `block in notify'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:73:in `each'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:73:in `notify'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:20:in `conclude'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:13:in `report'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -S /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/bin/rspec --autotest '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb' '/home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb'
+^CInterrupt a second time to quit
+<internal:gem_prelude>:1:in `require': Interrupt
+	from <internal:gem_prelude>:1:in `<compiled>'
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -S /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/bin/rspec --autotest '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb' '/home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb'
+^CInterrupt a second time to quit
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/requirement.rb:41:in `create': Interrupt
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:50:in `initialize'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:821:in `new'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:821:in `add_dependency_with_type'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:839:in `add_development_dependency'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/specifications/cucumber-1.2.1.gemspec:41:in `block in load'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:1368:in `initialize'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/specifications/cucumber-1.2.1.gemspec:3:in `new'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/specifications/cucumber-1.2.1.gemspec:3:in `load'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:549:in `eval'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:549:in `load'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:269:in `block (2 levels) in _all'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:268:in `each'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:268:in `block in _all'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:267:in `each'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:267:in `_all'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb:410:in `each'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:216:in `find_all'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:216:in `matching_specs'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:238:in `to_specs'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:256:in `to_spec'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems.rb:1231:in `gem'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/bin/bundle:22:in `<main>'
+^C]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ gem uninstall rspec
+
+You have requested to uninstall the gem:
+	rspec-2.0.1
+autotest-fsevent-0.2.8 depends on [rspec (>= 0)]
+autotest-growl-0.2.16 depends on [rspec (>= 0)]
+capybara-1.1.2 depends on [rspec (>= 2.0.0)]
+childprocess-0.3.5 depends on [rspec (>= 2.0.0)]
+diff-lcs-1.1.3 depends on [rspec (~> 2.0)]
+email_spec-1.2.1 depends on [rspec (~> 2.0)]
+factory_girl-4.0.0 depends on [rspec (~> 2.0)]
+libv8-3.11.8.3 depends on [rspec (>= 0)]
+oauth2-0.8.0 depends on [rspec (>= 0)]
+rest-client-1.6.7 depends on [rspec (>= 0)]
+rspec-rails-2.0.1 depends on [rspec (~> 2.0.0)]
+selenium-webdriver-2.25.0 depends on [rspec (~> 2.0)]
+sunspot_mongo-1.0.1 depends on [rspec (>= 0)]
+therubyracer-0.10.2 depends on [rspec (~> 2.0)]
+therubyracer-0.10.1 depends on [rspec (~> 2.0)]
+treetop-1.4.10 depends on [rspec (>= 2.0.0)]
+xpath-0.1.4 depends on [rspec (~> 2.0)]
+If you remove this gems, one or more dependencies will not be met.
+Continue with Uninstall? [Yn]  Y
+Successfully uninstalled rspec-2.0.1
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ gem install rs[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgem uninstall rspec-rail s
+Successfully uninstalled rspec-rails-2.0.1
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ gem install [K[K[K[K[K[K[K[K[K[K[K[Kbundle install
+Fetching gem metadata from https://rubygems.org/.......
+Using rake (0.9.2.2) 
+Using ZenTest (4.8.2) 
+Using i18n (0.6.0) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.7) 
+Using builder (3.0.0) 
+Using activemodel (3.2.7) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.7) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.7) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.33) 
+Using activerecord (3.2.7) 
+Using activeresource (3.2.7) 
+Using autotest (4.4.6) 
+Installing autotest-rails (4.1.2) 
+Using bundler (1.1.5) 
+Using coffee-script-source (1.3.3) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.4) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.7) 
+Using coffee-rails (3.2.2) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (2.0.2) 
+Using libv8 (3.3.10.4) 
+Using nokogiri (1.5.5) 
+Using rails (3.2.7) 
+Using rspec-core (2.0.1) 
+Using rspec-expectations (2.0.1) 
+Using rspec-mocks (2.0.1) 
+Installing rspec (2.0.1) 
+Installing rspec-rails (2.0.1) 
+Using sass (3.2.0) 
+Using sass-rails (3.2.5) 
+Using sqlite3 (1.3.6) 
+Using therubyracer (0.10.2) 
+Using uglifier (1.2.7) 
+Using webrat (0.7.1) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+[32mPost-install message from rspec-rails:
+**************************************************
+
+  Thank you for installing rspec-rails-2.0.1!
+
+  This version of rspec-rails only works with versions of rails >= 3.0.0
+
+  To configure your app to use rspec-rails, add a declaration to your Gemfile.
+  If you are using Bundler's grouping feature in your Gemfile, be sure to include
+  rspec-rails in the :development group as well as the :test group so that you
+  can access its generators and rake tasks.
+
+    group :development, :test do
+      gem "rspec-rails", ">= 2.0.1"
+    end
+
+  Be sure to run the following command in each of your Rails apps if you're
+  upgrading:
+
+    script/rails generate rspec:install
+
+  Even if you've run it before, this ensures that you have the latest updates
+  to spec/spec_helper.rb and any other support files.
+
+  Beta versions of rspec-rails-2 installed files that are no longer being used,
+  so please remove these files if you have them:
+
+    lib/tasks/rspec.rake
+    config/initializers/rspec_generator.rb
+
+  Lastly, be sure to look at Upgrade.markdown to see what might have changed
+  since the last release.
+
+**************************************************
+[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rails generate rspec:ins tall
+[1m[32m      create[0m  .rspec
+[1m[32m      create[0m  spec
+[1m[32m      create[0m  spec/spec_helper.rb
+[1m[32m      create[0m  autotest
+[1m[32m      create[0m  autotest/discover.rb
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec
+
+
+Finished in 0.00007 seconds
+[32m0 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec
+
+
+Finished in 0.00006 seconds
+[32m0 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/
+
+
+Finished in 0.00005 seconds
+[32m0 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ autotest
+loading autotest/rails_rspec2
+^CInterrupt a second time to quit
+^CInterrupt a second time to quit
+
+^CInterrupt a second time to quit
+quit
+exit
+^CInterrupt a second time to quit
+^C^C^C]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ ^C
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ ^C
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/
+
+
+Finished in 0.00007 seconds
+[32m0 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rails generate controlle r pages[K[K[K[K[KPages
+[1m[31m    conflict[0m  app/controllers/pages_controller.rb
+Overwrite /home/dudekpj/rails_projects/sample_app/app/controllers/pages_controller.rb? (enter "h" for help) [Ynaqdh] Y
+[1m[33m       force[0m  app/controllers/pages_controller.rb
+[1m[37m      invoke[0m  erb
+[1m[34m       exist[0m    app/views/pages
+[1m[37m      invoke[0m  rspec
+[1m[32m      create[0m    spec/controllers/pages_controller_spec.rb
+[1m[37m      invoke[0m  helper
+[1m[34m   identical[0m    app/helpers/pages_helper.rb
+[1m[37m      invoke[0m    rspec
+[1m[32m      create[0m      spec/helpers/pages_helper_spec.rb
+[1m[37m      invoke[0m  assets
+[1m[37m      invoke[0m    coffee
+[1m[34m   identical[0m      app/assets/javascripts/pages.js.coffee
+[1m[37m      invoke[0m    scss
+[1m[34m   identical[0m      app/assets/stylesheets/pages.css.scss
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewRendering instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ControllerExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewAssigns instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::HelperExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb:13)
+[31mF[0m
+
+Failures:
+  1) PagesHelper add some examples to (or delete) /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb
+     [31mFailure/Error:[0m [31mUnable to find matching line from backtrace[0m
+     [31mundefined method `run_all' for []:Array[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/hooks.rb:116:in `run_hook_filtered'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:174:in `eval_before_alls'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:229:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block (2 levels) in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `map'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:11:in `report'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'[0m
+
+Finished in 0.00115 seconds
+[31m1 example, 1 failure[0m
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/hooks.rb:116:in `run_hook_filtered': undefined method `run_all' for []:Array (NoMethodError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:213:in `eval_after_alls'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:236:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block (2 levels) in run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block in run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:11:in `report'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/cont[K[K[K[Kcontrollers
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewRendering instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ControllerExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+
+
+Finished in 0.00018 seconds
+[32m0 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ screen -S server
+[?1049h[r[m[2J[H[?7h[?1;4;6l[4l[?1h=[0m(B[1;27r[H[2J[H[2Jdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rails s
+=> Booting WEBrick
+=> Rails 3.2.7 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[?1l>[27;1H
+[?1049l[detached from 3995.server]
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ screen -S serverrspec spec/controllers
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::SetupAndTeardownAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::TestUnitAssertionAdapter instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ViewRendering instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in RSpec::Rails::ControllerExampleGroup instead. (called from <top (required)> at /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:3)
+[31mF[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should be successful
+     [31mFailure/Error:[0m [31mUnable to find matching line from backtrace[0m
+     [31mundefined method `run_all' for []:Array[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/hooks.rb:116:in `run_hook_filtered'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:174:in `eval_before_alls'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:229:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block (2 levels) in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `map'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:11:in `report'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'[0m
+
+  2) PagesController GET 'contact' should be successful
+     [31mFailure/Error:[0m [31mUnable to find matching line from backtrace[0m
+     [31mundefined method `run_all' for []:Array[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/hooks.rb:116:in `run_hook_filtered'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:174:in `eval_before_alls'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:229:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block (2 levels) in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `map'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block in run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:11:in `report'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'[0m
+[90m     # /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'[0m
+
+Finished in 0.00098 seconds
+[31m2 examples, 2 failures[0m
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/hooks.rb:116:in `run_hook_filtered': undefined method `run_all' for []:Array (NoMethodError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:213:in `eval_after_alls'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/example_group.rb:236:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block (2 levels) in run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:26:in `block in run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/reporter.rb:11:in `report'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:23:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ resps[K[K[K[Kspec
+
+
+Finished in 0.00014 seconds
+[32m0 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle install
+Fetching git://github.com/rspec/rspec-rails.git
+remote: Counting objects: 7683, done.[K
+remote: Compressing objects:   0% (1/3005)   [Kremote: Compressing objects:   1% (31/3005)   [Kremote: Compressing objects:   2% (61/3005)   [Kremote: Compressing objects:   3% (91/3005)   [Kremote: Compressing objects:   4% (121/3005)   [Kremote: Compressing objects:   5% (151/3005)   [Kremote: Compressing objects:   6% (181/3005)   [Kremote: Compressing objects:   7% (211/3005)   [Kremote: Compressing objects:   8% (241/3005)   [Kremote: Compressing objects:   9% (271/3005)   [Kremote: Compressing objects:  10% (301/3005)   [Kremote: Compressing objects:  11% (331/3005)   [Kremote: Compressing objects:  12% (361/3005)   [Kremote: Compressing objects:  13% (391/3005)   [Kremote: Compressing objects:  14% (421/3005)   [Kremote: Compressing objects:  15% (451/3005)   [Kremote: Compressing objects:  16% (481/3005)   [Kremote: Compressing objects:  17% (511/3005)   [Kremote: Compressing objects:  18% (541/3005)   [Kremote: Compressing objects:  19% (571/3005)   [Kremote: Compressing objects:  20% (601/3005)   [Kremote: Compressing objects:  21% (632/3005)   [Kremote: Compressing objects:  22% (662/3005)   [Kremote: Compressing objects:  23% (692/3005)   [Kremote: Compressing objects:  24% (722/3005)   [Kremote: Compressing objects:  25% (752/3005)   [Kremote: Compressing objects:  26% (782/3005)   [Kremote: Compressing objects:  27% (812/3005)   [Kremote: Compressing objects:  28% (842/3005)   [Kremote: Compressing objects:  29% (872/3005)   [Kremote: Compressing objects:  30% (902/3005)   [Kremote: Compressing objects:  31% (932/3005)   [Kremote: Compressing objects:  32% (962/3005)   [Kremote: Compressing objects:  33% (992/3005)   [Kremote: Compressing objects:  34% (1022/3005)   [Kremote: Compressing objects:  35% (1052/3005)   [Kremote: Compressing objects:  36% (1082/3005)   [Kremote: Compressing objects:  37% (1112/3005)   [Kremote: Compressing objects:  38% (1142/3005)   [Kremote: Compressing objects:  39% (1172/3005)   [Kremote: Compressing objects:  40% (1202/3005)   [Kremote: Compressing objects:  41% (1233/3005)   [Kremote: Compressing objects:  42% (1263/3005)   [Kremote: Compressing objects:  43% (1293/3005)   [Kremote: Compressing objects:  44% (1323/3005)   [Kremote: Compressing objects:  45% (1353/3005)   [Kremote: Compressing objects:  46% (1383/3005)   [Kremote: Compressing objects:  47% (1413/3005)   [Kremote: Compressing objects:  48% (1443/3005)   [Kremote: Compressing objects:  49% (1473/3005)   [Kremote: Compressing objects:  50% (1503/3005)   [Kremote: Compressing objects:  51% (1533/3005)   [Kremote: Compressing objects:  52% (1563/3005)   [Kremote: Compressing objects:  53% (1593/3005)   [Kremote: Compressing objects:  54% (1623/3005)   [Kremote: Compressing objects:  55% (1653/3005)   [Kremote: Compressing objects:  56% (1683/3005)   [Kremote: Compressing objects:  57% (1713/3005)   [Kremote: Compressing objects:  58% (1743/3005)   [Kremote: Compressing objects:  59% (1773/3005)   [Kremote: Compressing objects:  60% (1803/3005)   [Kremote: Compressing objects:  61% (1834/3005)   [Kremote: Compressing objects:  62% (1864/3005)   [Kremote: Compressing objects:  63% (1894/3005)   [Kremote: Compressing objects:  64% (1924/3005)   [Kremote: Compressing objects:  65% (1954/3005)   [Kremote: Compressing objects:  66% (1984/3005)   [Kremote: Compressing objects:  67% (2014/3005)   [Kremote: Compressing objects:  68% (2044/3005)   [Kremote: Compressing objects:  69% (2074/3005)   [Kremote: Compressing objects:  70% (2104/3005)   [Kremote: Compressing objects:  71% (2134/3005)   [Kremote: Compressing objects:  72% (2164/3005)   [Kremote: Compressing objects:  73% (2194/3005)   [Kremote: Compressing objects:  74% (2224/3005)   [Kremote: Compressing objects:  75% (2254/3005)   [Kremote: Compressing objects:  76% (2284/3005)   [Kremote: Compressing objects:  77% (2314/3005)   [Kremote: Compressing objects:  78% (2344/3005)   [Kremote: Compressing objects:  79% (2374/3005)   [Kremote: Compressing objects:  80% (2404/3005)   [Kremote: Compressing objects:  81% (2435/3005)   [Kremote: Compressing objects:  82% (2465/3005)   [Kremote: Compressing objects:  83% (2495/3005)   [Kremote: Compressing objects:  84% (2525/3005)   [Kremote: Compressing objects:  85% (2555/3005)   [Kremote: Compressing objects:  86% (2585/3005)   [Kremote: Compressing objects:  87% (2615/3005)   [Kremote: Compressing objects:  88% (2645/3005)   [Kremote: Compressing objects:  89% (2675/3005)   [Kremote: Compressing objects:  90% (2705/3005)   [Kremote: Compressing objects:  91% (2735/3005)   [Kremote: Compressing objects:  92% (2765/3005)   [Kremote: Compressing objects:  93% (2795/3005)   [Kremote: Compressing objects:  94% (2825/3005)   [Kremote: Compressing objects:  95% (2855/3005)   [Kremote: Compressing objects:  96% (2885/3005)   [Kremote: Compressing objects:  97% (2915/3005)   [Kremote: Compressing objects:  98% (2945/3005)   [Kremote: Compressing objects:  99% (2975/3005)   [Kremote: Compressing objects: 100% (3005/3005)   [Kremote: Compressing objects: 100% (3005/3005), done.[K
+Receiving objects:   0% (1/7683)   Receiving objects:   1% (77/7683)   Receiving objects:   2% (154/7683)   Receiving objects:   3% (231/7683)   Receiving objects:   4% (308/7683)   Receiving objects:   5% (385/7683)   Receiving objects:   6% (461/7683)   Receiving objects:   7% (538/7683)   Receiving objects:   8% (615/7683)   Receiving objects:   9% (692/7683)   Receiving objects:  10% (769/7683)   Receiving objects:  11% (846/7683)   Receiving objects:  12% (922/7683)   Receiving objects:  13% (999/7683)   Receiving objects:  14% (1076/7683)   Receiving objects:  15% (1153/7683)   Receiving objects:  16% (1230/7683)   Receiving objects:  17% (1307/7683)   Receiving objects:  18% (1383/7683)   Receiving objects:  19% (1460/7683)   Receiving objects:  20% (1537/7683)   Receiving objects:  21% (1614/7683)   Receiving objects:  22% (1691/7683)   Receiving objects:  23% (1768/7683)   Receiving objects:  24% (1844/7683)   Receiving objects:  25% (1921/7683)   Receiving objects:  26% (1998/7683)   Receiving objects:  27% (2075/7683)   Receiving objects:  28% (2152/7683)   Receiving objects:  29% (2229/7683)   Receiving objects:  30% (2305/7683)   Receiving objects:  31% (2382/7683)   Receiving objects:  32% (2459/7683)   Receiving objects:  33% (2536/7683)   Receiving objects:  34% (2613/7683)   Receiving objects:  35% (2690/7683)   Receiving objects:  36% (2766/7683)   Receiving objects:  37% (2843/7683)   Receiving objects:  38% (2920/7683)   Receiving objects:  39% (2997/7683)   Receiving objects:  40% (3074/7683)   Receiving objects:  41% (3151/7683)   Receiving objects:  42% (3227/7683)   Receiving objects:  43% (3304/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  44% (3381/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  45% (3458/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  46% (3535/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  47% (3612/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  48% (3688/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  49% (3765/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  50% (3842/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  51% (3919/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  52% (3996/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  53% (4072/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  54% (4149/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  55% (4226/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  56% (4303/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  57% (4380/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  58% (4457/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  59% (4533/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  60% (4610/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  61% (4687/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  62% (4764/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  63% (4841/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  64% (4918/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  65% (4994/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  66% (5071/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  67% (5148/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  68% (5225/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  69% (5302/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  70% (5379/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  71% (5455/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  72% (5532/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  73% (5609/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  74% (5686/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  75% (5763/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  76% (5840/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  77% (5916/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  78% (5993/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  79% (6070/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  80% (6147/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  81% (6224/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  82% (6301/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  83% (6377/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  84% (6454/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  85% (6531/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  86% (6608/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  87% (6685/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  88% (6762/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  89% (6838/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  90% (6915/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  91% (6992/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  92% (7069/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  93% (7146/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  94% (7223/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  95% (7299/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  96% (7376/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  97% (7453/7683), 448.00 KiB | 876 KiB/s   remote: Total 7683 (delta 4534), reused 7322 (delta 4256)[K
+Receiving objects:  98% (7530/7683), 448.00 KiB | 876 KiB/s   Receiving objects:  99% (7607/7683), 448.00 KiB | 876 KiB/s   Receiving objects: 100% (7683/7683), 448.00 KiB | 876 KiB/s   Receiving objects: 100% (7683/7683), 844.05 KiB | 876 KiB/s, done.
+Resolving deltas:   0% (0/4534)   Resolving deltas:   1% (57/4534)   Resolving deltas:   3% (164/4534)   Resolving deltas:   6% (274/4534)   Resolving deltas:   7% (330/4534)   Resolving deltas:   9% (418/4534)   Resolving deltas:  11% (542/4534)   Resolving deltas:  15% (710/4534)   Resolving deltas:  16% (733/4534)   Resolving deltas:  17% (808/4534)   Resolving deltas:  18% (822/4534)   Resolving deltas:  20% (913/4534)   Resolving deltas:  21% (959/4534)   Resolving deltas:  22% (1030/4534)   Resolving deltas:  23% (1047/4534)   Resolving deltas:  24% (1110/4534)   Resolving deltas:  26% (1210/4534)   Resolving deltas:  27% (1234/4534)   Resolving deltas:  28% (1290/4534)   Resolving deltas:  29% (1347/4534)   Resolving deltas:  30% (1362/4534)   Resolving deltas:  31% (1420/4534)   Resolving deltas:  32% (1460/4534)   Resolving deltas:  33% (1531/4534)   Resolving deltas:  34% (1547/4534)   Resolving deltas:  36% (1637/4534)   Resolving deltas:  37% (1685/4534)   Resolving deltas:  38% (1751/4534)   Resolving deltas:  39% (1781/4534)   Resolving deltas:  40% (1837/4534)   Resolving deltas:  41% (1890/4534)   Resolving deltas:  42% (1917/4534)   Resolving deltas:  43% (1954/4534)   Resolving deltas:  44% (2026/4534)   Resolving deltas:  45% (2042/4534)   Resolving deltas:  46% (2090/4534)   Resolving deltas:  47% (2131/4534)   Resolving deltas:  48% (2179/4534)   Resolving deltas:  49% (2248/4534)   Resolving deltas:  50% (2273/4534)   Resolving deltas:  51% (2330/4534)   Resolving deltas:  52% (2375/4534)   Resolving deltas:  53% (2417/4534)   Resolving deltas:  54% (2454/4534)   Resolving deltas:  55% (2494/4534)   Resolving deltas:  56% (2548/4534)   Resolving deltas:  57% (2590/4534)   Resolving deltas:  58% (2631/4534)   Resolving deltas:  59% (2699/4534)   Resolving deltas:  60% (2721/4534)   Resolving deltas:  61% (2799/4534)   Resolving deltas:  62% (2814/4534)   Resolving deltas:  63% (2880/4534)   Resolving deltas:  64% (2905/4534)   Resolving deltas:  65% (2953/4534)   Resolving deltas:  66% (3001/4534)   Resolving deltas:  67% (3039/4534)   Resolving deltas:  68% (3108/4534)   Resolving deltas:  69% (3130/4534)   Resolving deltas:  70% (3179/4534)   Resolving deltas:  71% (3220/4534)   Resolving deltas:  72% (3288/4534)   Resolving deltas:  73% (3310/4534)   Resolving deltas:  74% (3367/4534)   Resolving deltas:  75% (3405/4534)   Resolving deltas:  76% (3474/4534)   Resolving deltas:  77% (3496/4534)   Resolving deltas:  78% (3553/4534)   Resolving deltas:  79% (3585/4534)   Resolving deltas:  80% (3630/4534)   Resolving deltas:  81% (3673/4534)   Resolving deltas:  82% (3719/4534)   Resolving deltas:  83% (3768/4534)   Resolving deltas:  84% (3822/4534)   Resolving deltas:  85% (3856/4534)   Resolving deltas:  86% (3906/4534)   Resolving deltas:  88% (4007/4534)   Resolving deltas:  89% (4036/4534)   Resolving deltas:  91% (4156/4534)   Resolving deltas:  92% (4175/4534)   Resolving deltas:  93% (4229/4534)   Resolving deltas:  94% (4266/4534)   Resolving deltas:  96% (4360/4534)   Resolving deltas:  97% (4401/4534)   Resolving deltas:  98% (4449/4534)   Resolving deltas:  99% (4493/4534)   Resolving deltas: 100% (4534/4534)   Resolving deltas: 100% (4534/4534), done.
+Fetching git://github.com/rspec/rspec.git
+remote: Counting objects: 638, done.[K
+remote: Compressing objects:   0% (1/289)   [Kremote: Compressing objects:   1% (3/289)   [Kremote: Compressing objects:   2% (6/289)   [Kremote: Compressing objects:   3% (9/289)   [Kremote: Compressing objects:   4% (12/289)   [Kremote: Compressing objects:   5% (15/289)   [Kremote: Compressing objects:   6% (18/289)   [Kremote: Compressing objects:   7% (21/289)   [Kremote: Compressing objects:   8% (24/289)   [Kremote: Compressing objects:   9% (27/289)   [Kremote: Compressing objects:  10% (29/289)   [Kremote: Compressing objects:  11% (32/289)   [Kremote: Compressing objects:  12% (35/289)   [Kremote: Compressing objects:  13% (38/289)   [Kremote: Compressing objects:  14% (41/289)   [Kremote: Compressing objects:  15% (44/289)   [Kremote: Compressing objects:  16% (47/289)   [Kremote: Compressing objects:  17% (50/289)   [Kremote: Compressing objects:  18% (53/289)   [Kremote: Compressing objects:  19% (55/289)   [Kremote: Compressing objects:  20% (58/289)   [Kremote: Compressing objects:  21% (61/289)   [Kremote: Compressing objects:  22% (64/289)   [Kremote: Compressing objects:  23% (67/289)   [Kremote: Compressing objects:  24% (70/289)   [Kremote: Compressing objects:  25% (73/289)   [Kremote: Compressing objects:  26% (76/289)   [Kremote: Compressing objects:  27% (79/289)   [Kremote: Compressing objects:  28% (81/289)   [Kremote: Compressing objects:  29% (84/289)   [Kremote: Compressing objects:  30% (87/289)   [Kremote: Compressing objects:  31% (90/289)   [Kremote: Compressing objects:  32% (93/289)   [Kremote: Compressing objects:  33% (96/289)   [Kremote: Compressing objects:  34% (99/289)   [Kremote: Compressing objects:  35% (102/289)   [Kremote: Compressing objects:  36% (105/289)   [Kremote: Compressing objects:  37% (107/289)   [Kremote: Compressing objects:  38% (110/289)   [Kremote: Compressing objects:  39% (113/289)   [Kremote: Compressing objects:  40% (116/289)   [Kremote: Compressing objects:  41% (119/289)   [Kremote: Compressing objects:  42% (122/289)   [Kremote: Compressing objects:  43% (125/289)   [Kremote: Compressing objects:  44% (128/289)   [Kremote: Compressing objects:  45% (131/289)   [Kremote: Compressing objects:  46% (133/289)   [Kremote: Compressing objects:  47% (136/289)   [Kremote: Compressing objects:  48% (139/289)   [Kremote: Compressing objects:  49% (142/289)   [Kremote: Compressing objects:  50% (145/289)   [Kremote: Compressing objects:  51% (148/289)   [Kremote: Compressing objects:  52% (151/289)   [Kremote: Compressing objects:  53% (154/289)   [Kremote: Compressing objects:  54% (157/289)   [Kremote: Compressing objects:  55% (159/289)   [Kremote: Compressing objects:  56% (162/289)   [Kremote: Compressing objects:  57% (165/289)   [Kremote: Compressing objects:  58% (168/289)   [Kremote: Compressing objects:  59% (171/289)   [Kremote: Compressing objects:  60% (174/289)   [Kremote: Compressing objects:  61% (177/289)   [Kremote: Compressing objects:  62% (180/289)   [Kremote: Compressing objects:  63% (183/289)   [Kremote: Compressing objects:  64% (185/289)   [Kremote: Compressing objects:  65% (188/289)   [Kremote: Compressing objects:  66% (191/289)   [Kremote: Compressing objects:  67% (194/289)   [Kremote: Compressing objects:  68% (197/289)   [Kremote: Compressing objects:  69% (200/289)   [Kremote: Compressing objects:  70% (203/289)   [Kremote: Compressing objects:  71% (206/289)   [Kremote: Compressing objects:  72% (209/289)   [Kremote: Compressing objects:  73% (211/289)   [Kremote: Compressing objects:  74% (214/289)   [Kremote: Compressing objects:  75% (217/289)   [Kremote: Compressing objects:  76% (220/289)   [Kremote: Compressing objects:  77% (223/289)   [Kremote: Compressing objects:  78% (226/289)   [Kremote: Compressing objects:  79% (229/289)   [Kremote: Compressing objects:  80% (232/289)   [Kremote: Compressing objects:  81% (235/289)   [Kremote: Compressing objects:  82% (237/289)   [Kremote: Compressing objects:  83% (240/289)   [Kremote: Compressing objects:  84% (243/289)   [Kremote: Compressing objects:  85% (246/289)   [Kremote: Compressing objects:  86% (249/289)   [Kremote: Compressing objects:  87% (252/289)   [Kremote: Compressing objects:  88% (255/289)   [Kremote: Compressing objects:  89% (258/289)   [Kremote: Compressing objects:  90% (261/289)   [Kremote: Compressing objects:  91% (263/289)   [Kremote: Compressing objects:  92% (266/289)   [Kremote: Compressing objects:  93% (269/289)   [Kremote: Compressing objects:  94% (272/289)   [Kremote: Compressing objects:  95% (275/289)   [Kremote: Compressing objects:  96% (278/289)   [Kremote: Compressing objects:  97% (281/289)   [Kremote: Compressing objects:  98% (284/289)   [Kremote: Compressing objects:  99% (287/289)   [Kremote: Compressing objects: 100% (289/289)   [Kremote: Compressing objects: 100% (289/289), done.[K
+Receiving objects:   0% (1/638)   Receiving objects:   1% (7/638)   Receiving objects:   2% (13/638)   Receiving objects:   3% (20/638)   Receiving objects:   4% (26/638)   Receiving objects:   5% (32/638)   Receiving objects:   6% (39/638)   Receiving objects:   7% (45/638)   Receiving objects:   8% (52/638)   Receiving objects:   9% (58/638)   Receiving objects:  10% (64/638)   Receiving objects:  11% (71/638)   Receiving objects:  12% (77/638)   Receiving objects:  13% (83/638)   Receiving objects:  14% (90/638)   Receiving objects:  15% (96/638)   Receiving objects:  16% (103/638)   Receiving objects:  17% (109/638)   Receiving objects:  18% (115/638)   Receiving objects:  19% (122/638)   Receiving objects:  20% (128/638)   Receiving objects:  21% (134/638)   Receiving objects:  22% (141/638)   Receiving objects:  23% (147/638)   Receiving objects:  24% (154/638)   Receiving objects:  25% (160/638)   Receiving objects:  26% (166/638)   Receiving objects:  27% (173/638)   Receiving objects:  28% (179/638)   Receiving objects:  29% (186/638)   Receiving objects:  30% (192/638)   Receiving objects:  31% (198/638)   Receiving objects:  32% (205/638)   Receiving objects:  33% (211/638)   Receiving objects:  34% (217/638)   Receiving objects:  35% (224/638)   Receiving objects:  36% (230/638)   Receiving objects:  37% (237/638)   Receiving objects:  38% (243/638)   Receiving objects:  39% (249/638)   Receiving objects:  40% (256/638)   Receiving objects:  41% (262/638)   Receiving objects:  42% (268/638)   Receiving objects:  43% (275/638)   Receiving objects:  44% (281/638)   Receiving objects:  45% (288/638)   Receiving objects:  46% (294/638)   Receiving objects:  47% (300/638)   remote: Total 638 (delta 285), reused 607 (delta 257)[K
+Receiving objects:  48% (307/638)   Receiving objects:  49% (313/638)   Receiving objects:  50% (319/638)   Receiving objects:  51% (326/638)   Receiving objects:  52% (332/638)   Receiving objects:  53% (339/638)   Receiving objects:  54% (345/638)   Receiving objects:  55% (351/638)   Receiving objects:  56% (358/638)   Receiving objects:  57% (364/638)   Receiving objects:  58% (371/638)   Receiving objects:  59% (377/638)   Receiving objects:  60% (383/638)   Receiving objects:  61% (390/638)   Receiving objects:  62% (396/638)   Receiving objects:  63% (402/638)   Receiving objects:  64% (409/638)   Receiving objects:  65% (415/638)   Receiving objects:  66% (422/638)   Receiving objects:  67% (428/638)   Receiving objects:  68% (434/638)   Receiving objects:  69% (441/638)   Receiving objects:  70% (447/638)   Receiving objects:  71% (453/638)   Receiving objects:  72% (460/638)   Receiving objects:  73% (466/638)   Receiving objects:  74% (473/638)   Receiving objects:  75% (479/638)   Receiving objects:  76% (485/638)   Receiving objects:  77% (492/638)   Receiving objects:  78% (498/638)   Receiving objects:  79% (505/638)   Receiving objects:  80% (511/638)   Receiving objects:  81% (517/638)   Receiving objects:  82% (524/638)   Receiving objects:  83% (530/638)   Receiving objects:  84% (536/638)   Receiving objects:  85% (543/638)   Receiving objects:  86% (549/638)   Receiving objects:  87% (556/638)   Receiving objects:  88% (562/638)   Receiving objects:  89% (568/638)   Receiving objects:  90% (575/638)   Receiving objects:  91% (581/638)   Receiving objects:  92% (587/638)   Receiving objects:  93% (594/638)   Receiving objects:  94% (600/638)   Receiving objects:  95% (607/638)   Receiving objects:  96% (613/638)   Receiving objects:  97% (619/638)   Receiving objects:  98% (626/638)   Receiving objects:  99% (632/638)   Receiving objects: 100% (638/638)   Receiving objects: 100% (638/638), 63.57 KiB, done.
+Resolving deltas:   0% (0/285)   Resolving deltas:   1% (4/285)   Resolving deltas:  11% (33/285)   Resolving deltas:  19% (55/285)   Resolving deltas:  24% (70/285)   Resolving deltas:  31% (91/285)   Resolving deltas:  34% (98/285)   Resolving deltas:  38% (109/285)   Resolving deltas:  48% (138/285)   Resolving deltas:  49% (140/285)   Resolving deltas:  50% (143/285)   Resolving deltas:  51% (148/285)   Resolving deltas:  52% (149/285)   Resolving deltas:  54% (154/285)   Resolving deltas:  58% (168/285)   Resolving deltas:  59% (170/285)   Resolving deltas:  60% (172/285)   Resolving deltas:  63% (180/285)   Resolving deltas:  64% (183/285)   Resolving deltas:  67% (191/285)   Resolving deltas:  72% (208/285)   Resolving deltas:  73% (210/285)   Resolving deltas:  90% (259/285)   Resolving deltas:  91% (262/285)   Resolving deltas:  94% (269/285)   Resolving deltas:  95% (272/285)   Resolving deltas: 100% (285/285)   Resolving deltas: 100% (285/285), done.
+Fetching git://github.com/rspec/rspec-core.git
+remote: Counting objects: 5955   [Kremote: Counting objects: 15319, done.[K
+remote: Compressing objects:   0% (1/5539)   [Kremote: Compressing objects:   1% (56/5539)   [Kremote: Compressing objects:   2% (111/5539)   [Kremote: Compressing objects:   3% (167/5539)   [Kremote: Compressing objects:   4% (222/5539)   [Kremote: Compressing objects:   5% (277/5539)   [Kremote: Compressing objects:   6% (333/5539)   [Kremote: Compressing objects:   7% (388/5539)   [Kremote: Compressing objects:   8% (444/5539)   [Kremote: Compressing objects:   9% (499/5539)   [Kremote: Compressing objects:  10% (554/5539)   [Kremote: Compressing objects:  11% (610/5539)   [Kremote: Compressing objects:  12% (665/5539)   [Kremote: Compressing objects:  13% (721/5539)   [Kremote: Compressing objects:  14% (776/5539)   [Kremote: Compressing objects:  15% (831/5539)   [Kremote: Compressing objects:  16% (887/5539)   [Kremote: Compressing objects:  17% (942/5539)   [Kremote: Compressing objects:  18% (998/5539)   [Kremote: Compressing objects:  19% (1053/5539)   [Kremote: Compressing objects:  20% (1108/5539)   [Kremote: Compressing objects:  21% (1164/5539)   [Kremote: Compressing objects:  22% (1219/5539)   [Kremote: Compressing objects:  23% (1274/5539)   [Kremote: Compressing objects:  24% (1330/5539)   [Kremote: Compressing objects:  25% (1385/5539)   [Kremote: Compressing objects:  26% (1441/5539)   [Kremote: Compressing objects:  27% (1496/5539)   [Kremote: Compressing objects:  28% (1551/5539)   [Kremote: Compressing objects:  29% (1607/5539)   [Kremote: Compressing objects:  30% (1662/5539)   [Kremote: Compressing objects:  31% (1718/5539)   [Kremote: Compressing objects:  32% (1773/5539)   [Kremote: Compressing objects:  33% (1828/5539)   [Kremote: Compressing objects:  34% (1884/5539)   [Kremote: Compressing objects:  35% (1939/5539)   [Kremote: Compressing objects:  36% (1995/5539)   [Kremote: Compressing objects:  37% (2050/5539)   [Kremote: Compressing objects:  38% (2105/5539)   [Kremote: Compressing objects:  39% (2161/5539)   [Kremote: Compressing objects:  40% (2216/5539)   [Kremote: Compressing objects:  41% (2271/5539)   [Kremote: Compressing objects:  42% (2327/5539)   [Kremote: Compressing objects:  43% (2382/5539)   [Kremote: Compressing objects:  44% (2438/5539)   [Kremote: Compressing objects:  45% (2493/5539)   [Kremote: Compressing objects:  46% (2548/5539)   [Kremote: Compressing objects:  47% (2604/5539)   [Kremote: Compressing objects:  48% (2659/5539)   [Kremote: Compressing objects:  49% (2715/5539)   [Kremote: Compressing objects:  50% (2770/5539)   [Kremote: Compressing objects:  51% (2825/5539)   [Kremote: Compressing objects:  52% (2881/5539)   [Kremote: Compressing objects:  53% (2936/5539)   [Kremote: Compressing objects:  54% (2992/5539)   [Kremote: Compressing objects:  55% (3047/5539)   [Kremote: Compressing objects:  56% (3102/5539)   [Kremote: Compressing objects:  57% (3158/5539)   [Kremote: Compressing objects:  58% (3213/5539)   [Kremote: Compressing objects:  59% (3269/5539)   [Kremote: Compressing objects:  60% (3324/5539)   [Kremote: Compressing objects:  61% (3379/5539)   [Kremote: Compressing objects:  62% (3435/5539)   [Kremote: Compressing objects:  63% (3490/5539)   [Kremote: Compressing objects:  64% (3545/5539)   [Kremote: Compressing objects:  65% (3601/5539)   [Kremote: Compressing objects:  66% (3656/5539)   [Kremote: Compressing objects:  67% (3712/5539)   [Kremote: Compressing objects:  68% (3767/5539)   [Kremote: Compressing objects:  69% (3822/5539)   [Kremote: Compressing objects:  70% (3878/5539)   [Kremote: Compressing objects:  71% (3933/5539)   [Kremote: Compressing objects:  72% (3989/5539)   [Kremote: Compressing objects:  73% (4044/5539)   [Kremote: Compressing objects:  74% (4099/5539)   [Kremote: Compressing objects:  75% (4155/5539)   [Kremote: Compressing objects:  76% (4210/5539)   [Kremote: Compressing objects:  77% (4266/5539)   [Kremote: Compressing objects:  78% (4321/5539)   [Kremote: Compressing objects:  79% (4376/5539)   [Kremote: Compressing objects:  80% (4432/5539)   [Kremote: Compressing objects:  81% (4487/5539)   [Kremote: Compressing objects:  82% (4542/5539)   [Kremote: Compressing objects:  83% (4598/5539)   [Kremote: Compressing objects:  84% (4653/5539)   [Kremote: Compressing objects:  85% (4709/5539)   [Kremote: Compressing objects:  86% (4764/5539)   [Kremote: Compressing objects:  87% (4819/5539)   [Kremote: Compressing objects:  88% (4875/5539)   [Kremote: Compressing objects:  89% (4930/5539)   [Kremote: Compressing objects:  90% (4986/5539)   [Kremote: Compressing objects:  91% (5041/5539)   [Kremote: Compressing objects:  92% (5096/5539)   [Kremote: Compressing objects:  93% (5152/5539)   [Kremote: Compressing objects:  94% (5207/5539)   [Kremote: Compressing objects:  95% (5263/5539)   [Kremote: Compressing objects:  96% (5318/5539)   [Kremote: Compressing objects:  97% (5373/5539)   [Kremote: Compressing objects:  98% (5429/5539)   [Kremote: Compressing objects:  99% (5484/5539)   [Kremote: Compressing objects: 100% (5539/5539)   [Kremote: Compressing objects: 100% (5539/5539), done.[K
+Receiving objects:   0% (1/15319)   Receiving objects:   1% (154/15319)   Receiving objects:   2% (307/15319)   Receiving objects:   3% (460/15319)   Receiving objects:   4% (613/15319)   Receiving objects:   5% (766/15319)   Receiving objects:   6% (920/15319)   Receiving objects:   7% (1073/15319)   Receiving objects:   8% (1226/15319)   Receiving objects:   9% (1379/15319)   Receiving objects:  10% (1532/15319)   Receiving objects:  11% (1686/15319)   Receiving objects:  12% (1839/15319)   Receiving objects:  13% (1992/15319)   Receiving objects:  14% (2145/15319)   Receiving objects:  15% (2298/15319)   Receiving objects:  16% (2452/15319)   Receiving objects:  17% (2605/15319)   Receiving objects:  18% (2758/15319)   Receiving objects:  19% (2911/15319)   Receiving objects:  20% (3064/15319)   Receiving objects:  21% (3217/15319)   Receiving objects:  22% (3371/15319)   Receiving objects:  23% (3524/15319)   Receiving objects:  24% (3677/15319)   Receiving objects:  25% (3830/15319)   Receiving objects:  26% (3983/15319)   Receiving objects:  27% (4137/15319)   Receiving objects:  28% (4290/15319)   Receiving objects:  29% (4443/15319)   Receiving objects:  30% (4596/15319)   Receiving objects:  31% (4749/15319)   Receiving objects:  32% (4903/15319)   Receiving objects:  33% (5056/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  34% (5209/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  35% (5362/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  36% (5515/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  37% (5669/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  38% (5822/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  39% (5975/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  40% (6128/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  41% (6281/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  42% (6434/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  43% (6588/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  44% (6741/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  45% (6894/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  46% (7047/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  47% (7200/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  48% (7354/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  49% (7507/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  50% (7660/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  51% (7813/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  52% (7966/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  53% (8120/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  54% (8273/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  55% (8426/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  56% (8579/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  57% (8732/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  58% (8886/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  59% (9039/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  60% (9192/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  61% (9345/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  62% (9498/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  63% (9651/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  64% (9805/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  65% (9958/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  66% (10111/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  67% (10264/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  68% (10417/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  69% (10571/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  70% (10724/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  71% (10877/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  72% (11030/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  73% (11183/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  74% (11337/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  75% (11490/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  76% (11643/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  77% (11796/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  78% (11949/15319), 692.00 KiB | 1.33 MiB/s   Receiving objects:  78% (12095/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  79% (12103/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  80% (12256/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  81% (12409/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  82% (12562/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  83% (12715/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  84% (12868/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  85% (13022/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  86% (13175/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  87% (13328/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  88% (13481/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  89% (13634/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  90% (13788/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  91% (13941/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  92% (14094/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  93% (14247/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  94% (14400/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  95% (14554/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  96% (14707/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  97% (14860/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  98% (15013/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects:  99% (15166/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects: 100% (15319/15319), 1.56 MiB | 1.54 MiB/s   Receiving objects: 100% (15319/15319), 1.83 MiB | 1.54 MiB/s, done.
+remote: Total 15319 (delta 10209), reused 14425 (delta 9427)[K
+Resolving deltas:   0% (0/10209)   Resolving deltas:   3% (364/10209)   Resolving deltas:   6% (714/10209)   Resolving deltas:   7% (745/10209)   Resolving deltas:   8% (819/10209)   Resolving deltas:   9% (940/10209)   Resolving deltas:  10% (1073/10209)   Resolving deltas:  11% (1135/10209)   Resolving deltas:  12% (1326/10209)   Resolving deltas:  13% (1329/10209)   Resolving deltas:  16% (1654/10209)   Resolving deltas:  17% (1745/10209)   Resolving deltas:  18% (1840/10209)   Resolving deltas:  19% (1943/10209)   Resolving deltas:  21% (2145/10209)   Resolving deltas:  22% (2247/10209)   Resolving deltas:  23% (2385/10209)   Resolving deltas:  24% (2466/10209)   Resolving deltas:  25% (2624/10209)   Resolving deltas:  26% (2727/10209)   Resolving deltas:  27% (2775/10209)   Resolving deltas:  28% (2879/10209)   Resolving deltas:  29% (2961/10209)   Resolving deltas:  30% (3094/10209)   Resolving deltas:  31% (3206/10209)   Resolving deltas:  32% (3334/10209)   Resolving deltas:  33% (3373/10209)   Resolving deltas:  34% (3508/10209)   Resolving deltas:  36% (3676/10209)   Resolving deltas:  37% (3861/10209)   Resolving deltas:  38% (3891/10209)   Resolving deltas:  39% (3992/10209)   Resolving deltas:  40% (4164/10209)   Resolving deltas:  41% (4192/10209)   Resolving deltas:  42% (4295/10209)   Resolving deltas:  43% (4431/10209)   Resolving deltas:  44% (4545/10209)   Resolving deltas:  45% (4646/10209)   Resolving deltas:  46% (4747/10209)   Resolving deltas:  47% (4805/10209)   Resolving deltas:  48% (4904/10209)   Resolving deltas:  50% (5173/10209)   Resolving deltas:  51% (5221/10209)   Resolving deltas:  52% (5315/10209)   Resolving deltas:  53% (5447/10209)   Resolving deltas:  54% (5516/10209)   Resolving deltas:  55% (5647/10209)   Resolving deltas:  56% (5720/10209)   Resolving deltas:  57% (5825/10209)   Resolving deltas:  58% (5923/10209)   Resolving deltas:  59% (6050/10209)   Resolving deltas:  61% (6294/10209)   Resolving deltas:  62% (6341/10209)   Resolving deltas:  63% (6436/10209)   Resolving deltas:  64% (6546/10209)   Resolving deltas:  65% (6636/10209)   Resolving deltas:  66% (6833/10209)   Resolving deltas:  67% (6846/10209)   Resolving deltas:  69% (7105/10209)   Resolving deltas:  70% (7153/10209)   Resolving deltas:  71% (7261/10209)   Resolving deltas:  72% (7441/10209)   Resolving deltas:  73% (7457/10209)   Resolving deltas:  74% (7568/10209)   Resolving deltas:  75% (7681/10209)   Resolving deltas:  76% (7766/10209)   Resolving deltas:  77% (7892/10209)   Resolving deltas:  78% (7964/10209)   Resolving deltas:  79% (8077/10209)   Resolving deltas:  80% (8180/10209)   Resolving deltas:  81% (8345/10209)   Resolving deltas:  82% (8374/10209)   Resolving deltas:  83% (8509/10209)   Resolving deltas:  84% (8579/10209)   Resolving deltas:  85% (8698/10209)   Resolving deltas:  86% (8821/10209)   Resolving deltas:  87% (8882/10209)   Resolving deltas:  88% (8988/10209)   Resolving deltas:  89% (9105/10209)   Resolving deltas:  90% (9197/10209)   Resolving deltas:  91% (9310/10209)   Resolving deltas:  92% (9426/10209)   Resolving deltas:  93% (9503/10209)   Resolving deltas:  94% (9606/10209)   Resolving deltas:  95% (9744/10209)   Resolving deltas:  96% (9819/10209)   Resolving deltas:  97% (9913/10209)   Resolving deltas:  98% (10008/10209)   Resolving deltas:  99% (10107/10209)   Resolving deltas: 100% (10209/10209)   Resolving deltas: 100% (10209/10209), done.
+Fetching git://github.com/rspec/rspec-expectations.git
+remote: Counting objects: 4520, done.[K
+remote: Compressing objects:   0% (1/1737)   [Kremote: Compressing objects:   1% (18/1737)   [Kremote: Compressing objects:   2% (35/1737)   [Kremote: Compressing objects:   3% (53/1737)   [Kremote: Compressing objects:   4% (70/1737)   [Kremote: Compressing objects:   5% (87/1737)   [Kremote: Compressing objects:   6% (105/1737)   [Kremote: Compressing objects:   7% (122/1737)   [Kremote: Compressing objects:   8% (139/1737)   [Kremote: Compressing objects:   9% (157/1737)   [Kremote: Compressing objects:  10% (174/1737)   [Kremote: Compressing objects:  11% (192/1737)   [Kremote: Compressing objects:  12% (209/1737)   [Kremote: Compressing objects:  13% (226/1737)   [Kremote: Compressing objects:  14% (244/1737)   [Kremote: Compressing objects:  15% (261/1737)   [Kremote: Compressing objects:  16% (278/1737)   [Kremote: Compressing objects:  17% (296/1737)   [Kremote: Compressing objects:  18% (313/1737)   [Kremote: Compressing objects:  19% (331/1737)   [Kremote: Compressing objects:  20% (348/1737)   [Kremote: Compressing objects:  21% (365/1737)   [Kremote: Compressing objects:  22% (383/1737)   [Kremote: Compressing objects:  23% (400/1737)   [Kremote: Compressing objects:  24% (417/1737)   [Kremote: Compressing objects:  25% (435/1737)   [Kremote: Compressing objects:  26% (452/1737)   [Kremote: Compressing objects:  27% (469/1737)   [Kremote: Compressing objects:  28% (487/1737)   [Kremote: Compressing objects:  29% (504/1737)   [Kremote: Compressing objects:  30% (522/1737)   [Kremote: Compressing objects:  31% (539/1737)   [Kremote: Compressing objects:  32% (556/1737)   [Kremote: Compressing objects:  33% (574/1737)   [Kremote: Compressing objects:  34% (591/1737)   [Kremote: Compressing objects:  35% (608/1737)   [Kremote: Compressing objects:  36% (626/1737)   [Kremote: Compressing objects:  37% (643/1737)   [Kremote: Compressing objects:  38% (661/1737)   [Kremote: Compressing objects:  39% (678/1737)   [Kremote: Compressing objects:  40% (695/1737)   [Kremote: Compressing objects:  41% (713/1737)   [Kremote: Compressing objects:  42% (730/1737)   [Kremote: Compressing objects:  43% (747/1737)   [Kremote: Compressing objects:  44% (765/1737)   [Kremote: Compressing objects:  45% (782/1737)   [Kremote: Compressing objects:  46% (800/1737)   [Kremote: Compressing objects:  47% (817/1737)   [Kremote: Compressing objects:  48% (834/1737)   [Kremote: Compressing objects:  49% (852/1737)   [Kremote: Compressing objects:  50% (869/1737)   [Kremote: Compressing objects:  51% (886/1737)   [Kremote: Compressing objects:  52% (904/1737)   [Kremote: Compressing objects:  53% (921/1737)   [Kremote: Compressing objects:  54% (938/1737)   [Kremote: Compressing objects:  55% (956/1737)   [Kremote: Compressing objects:  56% (973/1737)   [Kremote: Compressing objects:  57% (991/1737)   [Kremote: Compressing objects:  58% (1008/1737)   [Kremote: Compressing objects:  59% (1025/1737)   [Kremote: Compressing objects:  60% (1043/1737)   [Kremote: Compressing objects:  61% (1060/1737)   [Kremote: Compressing objects:  62% (1077/1737)   [Kremote: Compressing objects:  63% (1095/1737)   [Kremote: Compressing objects:  64% (1112/1737)   [Kremote: Compressing objects:  65% (1130/1737)   [Kremote: Compressing objects:  66% (1147/1737)   [Kremote: Compressing objects:  67% (1164/1737)   [Kremote: Compressing objects:  68% (1182/1737)   [Kremote: Compressing objects:  69% (1199/1737)   [Kremote: Compressing objects:  70% (1216/1737)   [Kremote: Compressing objects:  71% (1234/1737)   [Kremote: Compressing objects:  72% (1251/1737)   [Kremote: Compressing objects:  73% (1269/1737)   [Kremote: Compressing objects:  74% (1286/1737)   [Kremote: Compressing objects:  75% (1303/1737)   [Kremote: Compressing objects:  76% (1321/1737)   [Kremote: Compressing objects:  77% (1338/1737)   [Kremote: Compressing objects:  78% (1355/1737)   [Kremote: Compressing objects:  79% (1373/1737)   [Kremote: Compressing objects:  80% (1390/1737)   [Kremote: Compressing objects:  81% (1407/1737)   [Kremote: Compressing objects:  82% (1425/1737)   [Kremote: Compressing objects:  83% (1442/1737)   [Kremote: Compressing objects:  84% (1460/1737)   [Kremote: Compressing objects:  85% (1477/1737)   [Kremote: Compressing objects:  86% (1494/1737)   [Kremote: Compressing objects:  87% (1512/1737)   [Kremote: Compressing objects:  88% (1529/1737)   [Kremote: Compressing objects:  89% (1546/1737)   [Kremote: Compressing objects:  90% (1564/1737)   [Kremote: Compressing objects:  91% (1581/1737)   [Kremote: Compressing objects:  92% (1599/1737)   [Kremote: Compressing objects:  93% (1616/1737)   [Kremote: Compressing objects:  94% (1633/1737)   [Kremote: Compressing objects:  95% (1651/1737)   [Kremote: Compressing objects:  96% (1668/1737)   [Kremote: Compressing objects:  97% (1685/1737)   [Kremote: Compressing objects:  98% (1703/1737)   [Kremote: Compressing objects:  99% (1720/1737)   [Kremote: Compressing objects: 100% (1737/1737)   [Kremote: Compressing objects: 100% (1737/1737), done.[K
+Receiving objects:   0% (1/4520)   Receiving objects:   1% (46/4520)   Receiving objects:   2% (91/4520)   Receiving objects:   3% (136/4520)   Receiving objects:   4% (181/4520)   Receiving objects:   5% (226/4520)   Receiving objects:   6% (272/4520)   Receiving objects:   7% (317/4520)   Receiving objects:   8% (362/4520)   Receiving objects:   9% (407/4520)   Receiving objects:  10% (452/4520)   Receiving objects:  11% (498/4520)   Receiving objects:  12% (543/4520)   Receiving objects:  13% (588/4520)   Receiving objects:  14% (633/4520)   Receiving objects:  15% (678/4520)   Receiving objects:  16% (724/4520)   Receiving objects:  17% (769/4520)   Receiving objects:  18% (814/4520)   Receiving objects:  19% (859/4520)   Receiving objects:  20% (904/4520)   Receiving objects:  21% (950/4520)   Receiving objects:  22% (995/4520)   Receiving objects:  23% (1040/4520)   Receiving objects:  24% (1085/4520)   Receiving objects:  25% (1130/4520)   Receiving objects:  26% (1176/4520)   Receiving objects:  27% (1221/4520)   Receiving objects:  28% (1266/4520)   Receiving objects:  29% (1311/4520)   Receiving objects:  30% (1356/4520)   Receiving objects:  31% (1402/4520)   Receiving objects:  32% (1447/4520)   Receiving objects:  33% (1492/4520)   Receiving objects:  34% (1537/4520)   Receiving objects:  35% (1582/4520)   Receiving objects:  36% (1628/4520)   Receiving objects:  37% (1673/4520)   Receiving objects:  38% (1718/4520)   Receiving objects:  39% (1763/4520)   Receiving objects:  40% (1808/4520)   Receiving objects:  41% (1854/4520)   Receiving objects:  42% (1899/4520)   Receiving objects:  43% (1944/4520)   Receiving objects:  44% (1989/4520)   Receiving objects:  45% (2034/4520)   Receiving objects:  46% (2080/4520)   Receiving objects:  47% (2125/4520)   Receiving objects:  48% (2170/4520)   Receiving objects:  49% (2215/4520)   Receiving objects:  50% (2260/4520)   Receiving objects:  51% (2306/4520)   Receiving objects:  52% (2351/4520)   Receiving objects:  53% (2396/4520)   Receiving objects:  54% (2441/4520)   Receiving objects:  55% (2486/4520)   Receiving objects:  56% (2532/4520)   Receiving objects:  57% (2577/4520)   Receiving objects:  58% (2622/4520)   Receiving objects:  59% (2667/4520)   Receiving objects:  60% (2712/4520)   Receiving objects:  61% (2758/4520)   Receiving objects:  62% (2803/4520)   Receiving objects:  63% (2848/4520)   Receiving objects:  64% (2893/4520)   Receiving objects:  65% (2938/4520)   Receiving objects:  66% (2984/4520)   Receiving objects:  67% (3029/4520)   Receiving objects:  68% (3074/4520)   Receiving objects:  69% (3119/4520)   Receiving objects:  70% (3164/4520)   Receiving objects:  71% (3210/4520)   Receiving objects:  72% (3255/4520)   Receiving objects:  73% (3300/4520)   Receiving objects:  74% (3345/4520)   Receiving objects:  75% (3390/4520)   Receiving objects:  76% (3436/4520)   Receiving objects:  77% (3481/4520)   Receiving objects:  78% (3526/4520)   Receiving objects:  79% (3571/4520)   remote: Total 4520 (delta 2792), reused 4367 (delta 2658)[K
+Receiving objects:  80% (3616/4520)   Receiving objects:  81% (3662/4520)   Receiving objects:  82% (3707/4520)   Receiving objects:  83% (3752/4520)   Receiving objects:  84% (3797/4520)   Receiving objects:  85% (3842/4520)   Receiving objects:  86% (3888/4520)   Receiving objects:  87% (3933/4520)   Receiving objects:  88% (3978/4520)   Receiving objects:  89% (4023/4520)   Receiving objects:  90% (4068/4520)   Receiving objects:  91% (4114/4520)   Receiving objects:  92% (4159/4520)   Receiving objects:  93% (4204/4520)   Receiving objects:  94% (4249/4520)   Receiving objects:  95% (4294/4520)   Receiving objects:  96% (4340/4520)   Receiving objects:  97% (4385/4520)   Receiving objects:  98% (4430/4520)   Receiving objects:  99% (4475/4520)   Receiving objects: 100% (4520/4520)   Receiving objects: 100% (4520/4520), 575.03 KiB, done.
+Resolving deltas:   0% (0/2792)   Resolving deltas:   5% (141/2792)   Resolving deltas:   6% (168/2792)   Resolving deltas:   8% (227/2792)   Resolving deltas:  13% (364/2792)   Resolving deltas:  14% (408/2792)   Resolving deltas:  15% (436/2792)   Resolving deltas:  16% (447/2792)   Resolving deltas:  17% (478/2792)   Resolving deltas:  18% (512/2792)   Resolving deltas:  20% (571/2792)   Resolving deltas:  21% (602/2792)   Resolving deltas:  22% (637/2792)   Resolving deltas:  23% (662/2792)   Resolving deltas:  24% (673/2792)   Resolving deltas:  25% (698/2792)   Resolving deltas:  26% (737/2792)   Resolving deltas:  28% (794/2792)   Resolving deltas:  29% (832/2792)   Resolving deltas:  30% (841/2792)   Resolving deltas:  31% (882/2792)   Resolving deltas:  33% (933/2792)   Resolving deltas:  34% (962/2792)   Resolving deltas:  35% (993/2792)   Resolving deltas:  36% (1021/2792)   Resolving deltas:  37% (1059/2792)   Resolving deltas:  39% (1093/2792)   Resolving deltas:  40% (1144/2792)   Resolving deltas:  41% (1145/2792)   Resolving deltas:  43% (1225/2792)   Resolving deltas:  44% (1236/2792)   Resolving deltas:  45% (1257/2792)   Resolving deltas:  46% (1292/2792)   Resolving deltas:  48% (1343/2792)   Resolving deltas:  49% (1386/2792)   Resolving deltas:  50% (1406/2792)   Resolving deltas:  51% (1436/2792)   Resolving deltas:  52% (1453/2792)   Resolving deltas:  53% (1483/2792)   Resolving deltas:  54% (1509/2792)   Resolving deltas:  55% (1545/2792)   Resolving deltas:  56% (1567/2792)   Resolving deltas:  57% (1603/2792)   Resolving deltas:  58% (1620/2792)   Resolving deltas:  59% (1655/2792)   Resolving deltas:  60% (1679/2792)   Resolving deltas:  61% (1708/2792)   Resolving deltas:  62% (1732/2792)   Resolving deltas:  63% (1764/2792)   Resolving deltas:  64% (1789/2792)   Resolving deltas:  66% (1853/2792)   Resolving deltas:  67% (1879/2792)   Resolving deltas:  68% (1899/2792)   Resolving deltas:  69% (1927/2792)   Resolving deltas:  70% (1955/2792)   Resolving deltas:  71% (1988/2792)   Resolving deltas:  72% (2017/2792)   Resolving deltas:  73% (2046/2792)   Resolving deltas:  74% (2072/2792)   Resolving deltas:  75% (2096/2792)   Resolving deltas:  76% (2126/2792)   Resolving deltas:  77% (2162/2792)   Resolving deltas:  78% (2182/2792)   Resolving deltas:  79% (2212/2792)   Resolving deltas:  80% (2238/2792)   Resolving deltas:  81% (2262/2792)   Resolving deltas:  82% (2293/2792)   Resolving deltas:  83% (2331/2792)   Resolving deltas:  84% (2346/2792)   Resolving deltas:  85% (2379/2792)   Resolving deltas:  86% (2408/2792)   Resolving deltas:  88% (2470/2792)   Resolving deltas:  89% (2488/2792)   Resolving deltas:  90% (2513/2792)   Resolving deltas:  91% (2546/2792)   Resolving deltas:  92% (2583/2792)   Resolving deltas:  93% (2612/2792)   Resolving deltas:  94% (2630/2792)   Resolving deltas:  95% (2658/2792)   Resolving deltas:  96% (2698/2792)   Resolving deltas:  98% (2762/2792)   Resolving deltas:  99% (2767/2792)   Resolving deltas: 100% (2792/2792)   Resolving deltas: 100% (2792/2792), done.
+Fetching git://github.com/rspec/rspec-mocks.git
+remote: Counting objects: 15219, done.[K
+remote: Compressing objects:   0% (1/5230)   [Kremote: Compressing objects:   1% (53/5230)   [Kremote: Compressing objects:   2% (105/5230)   [Kremote: Compressing objects:   3% (157/5230)   [Kremote: Compressing objects:   4% (210/5230)   [Kremote: Compressing objects:   5% (262/5230)   [Kremote: Compressing objects:   6% (314/5230)   [Kremote: Compressing objects:   7% (367/5230)   [Kremote: Compressing objects:   8% (419/5230)   [Kremote: Compressing objects:   9% (471/5230)   [Kremote: Compressing objects:  10% (523/5230)   [Kremote: Compressing objects:  11% (576/5230)   [Kremote: Compressing objects:  12% (628/5230)   [Kremote: Compressing objects:  13% (680/5230)   [Kremote: Compressing objects:  14% (733/5230)   [Kremote: Compressing objects:  15% (785/5230)   [Kremote: Compressing objects:  16% (837/5230)   [Kremote: Compressing objects:  17% (890/5230)   [Kremote: Compressing objects:  18% (942/5230)   [Kremote: Compressing objects:  19% (994/5230)   [Kremote: Compressing objects:  20% (1046/5230)   [Kremote: Compressing objects:  21% (1099/5230)   [Kremote: Compressing objects:  22% (1151/5230)   [Kremote: Compressing objects:  23% (1203/5230)   [Kremote: Compressing objects:  24% (1256/5230)   [Kremote: Compressing objects:  25% (1308/5230)   [Kremote: Compressing objects:  26% (1360/5230)   [Kremote: Compressing objects:  27% (1413/5230)   [Kremote: Compressing objects:  28% (1465/5230)   [Kremote: Compressing objects:  29% (1517/5230)   [Kremote: Compressing objects:  30% (1569/5230)   [Kremote: Compressing objects:  31% (1622/5230)   [Kremote: Compressing objects:  32% (1674/5230)   [Kremote: Compressing objects:  33% (1726/5230)   [Kremote: Compressing objects:  34% (1779/5230)   [Kremote: Compressing objects:  35% (1831/5230)   [Kremote: Compressing objects:  36% (1883/5230)   [Kremote: Compressing objects:  37% (1936/5230)   [Kremote: Compressing objects:  38% (1988/5230)   [Kremote: Compressing objects:  39% (2040/5230)   [Kremote: Compressing objects:  40% (2092/5230)   [Kremote: Compressing objects:  41% (2145/5230)   [Kremote: Compressing objects:  42% (2197/5230)   [Kremote: Compressing objects:  43% (2249/5230)   [Kremote: Compressing objects:  44% (2302/5230)   [Kremote: Compressing objects:  45% (2354/5230)   [Kremote: Compressing objects:  46% (2406/5230)   [Kremote: Compressing objects:  47% (2459/5230)   [Kremote: Compressing objects:  48% (2511/5230)   [Kremote: Compressing objects:  49% (2563/5230)   [Kremote: Compressing objects:  50% (2615/5230)   [Kremote: Compressing objects:  51% (2668/5230)   [Kremote: Compressing objects:  52% (2720/5230)   [Kremote: Compressing objects:  53% (2772/5230)   [Kremote: Compressing objects:  54% (2825/5230)   [Kremote: Compressing objects:  55% (2877/5230)   [Kremote: Compressing objects:  56% (2929/5230)   [Kremote: Compressing objects:  57% (2982/5230)   [Kremote: Compressing objects:  58% (3034/5230)   [Kremote: Compressing objects:  59% (3086/5230)   [Kremote: Compressing objects:  60% (3138/5230)   [Kremote: Compressing objects:  61% (3191/5230)   [Kremote: Compressing objects:  62% (3243/5230)   [Kremote: Compressing objects:  63% (3295/5230)   [Kremote: Compressing objects:  64% (3348/5230)   [Kremote: Compressing objects:  65% (3400/5230)   [Kremote: Compressing objects:  66% (3452/5230)   [Kremote: Compressing objects:  67% (3505/5230)   [Kremote: Compressing objects:  68% (3557/5230)   [Kremote: Compressing objects:  69% (3609/5230)   [Kremote: Compressing objects:  70% (3661/5230)   [Kremote: Compressing objects:  71% (3714/5230)   [Kremote: Compressing objects:  72% (3766/5230)   [Kremote: Compressing objects:  73% (3818/5230)   [Kremote: Compressing objects:  74% (3871/5230)   [Kremote: Compressing objects:  75% (3923/5230)   [Kremote: Compressing objects:  76% (3975/5230)   [Kremote: Compressing objects:  77% (4028/5230)   [Kremote: Compressing objects:  78% (4080/5230)   [Kremote: Compressing objects:  79% (4132/5230)   [Kremote: Compressing objects:  80% (4184/5230)   [Kremote: Compressing objects:  81% (4237/5230)   [Kremote: Compressing objects:  82% (4289/5230)   [Kremote: Compressing objects:  83% (4341/5230)   [Kremote: Compressing objects:  84% (4394/5230)   [Kremote: Compressing objects:  85% (4446/5230)   [Kremote: Compressing objects:  86% (4498/5230)   [Kremote: Compressing objects:  87% (4551/5230)   [Kremote: Compressing objects:  88% (4603/5230)   [Kremote: Compressing objects:  89% (4655/5230)   [Kremote: Compressing objects:  90% (4707/5230)   [Kremote: Compressing objects:  91% (4760/5230)   [Kremote: Compressing objects:  92% (4812/5230)   [Kremote: Compressing objects:  93% (4864/5230)   [Kremote: Compressing objects:  94% (4917/5230)   [Kremote: Compressing objects:  95% (4969/5230)   [Kremote: Compressing objects:  96% (5021/5230)   [Kremote: Compressing objects:  97% (5074/5230)   [Kremote: Compressing objects:  98% (5126/5230)   [Kremote: Compressing objects:  99% (5178/5230)   [Kremote: Compressing objects: 100% (5230/5230)   [Kremote: Compressing objects: 100% (5230/5230), done.[K
+Receiving objects:   0% (1/15219)   Receiving objects:   1% (153/15219)   Receiving objects:   2% (305/15219)   Receiving objects:   3% (457/15219)   Receiving objects:   4% (609/15219)   Receiving objects:   5% (761/15219)   Receiving objects:   6% (914/15219)   Receiving objects:   7% (1066/15219)   Receiving objects:   8% (1218/15219)   Receiving objects:   9% (1370/15219)   Receiving objects:  10% (1522/15219)   Receiving objects:  11% (1675/15219)   Receiving objects:  12% (1827/15219)   Receiving objects:  13% (1979/15219)   Receiving objects:  14% (2131/15219)   Receiving objects:  15% (2283/15219)   Receiving objects:  16% (2436/15219)   Receiving objects:  17% (2588/15219)   Receiving objects:  18% (2740/15219)   Receiving objects:  19% (2892/15219)   Receiving objects:  20% (3044/15219)   Receiving objects:  21% (3196/15219)   Receiving objects:  22% (3349/15219)   Receiving objects:  23% (3501/15219)   Receiving objects:  24% (3653/15219)   Receiving objects:  25% (3805/15219)   Receiving objects:  26% (3957/15219)   Receiving objects:  27% (4110/15219)   Receiving objects:  28% (4262/15219)   Receiving objects:  29% (4414/15219)   Receiving objects:  30% (4566/15219)   Receiving objects:  31% (4718/15219)   Receiving objects:  32% (4871/15219)   Receiving objects:  33% (5023/15219)   Receiving objects:  34% (5175/15219)   Receiving objects:  35% (5327/15219)   Receiving objects:  36% (5479/15219)   Receiving objects:  37% (5632/15219)   Receiving objects:  38% (5784/15219)   Receiving objects:  39% (5936/15219)   Receiving objects:  40% (6088/15219)   Receiving objects:  41% (6240/15219)   Receiving objects:  42% (6392/15219)   Receiving objects:  43% (6545/15219)   Receiving objects:  44% (6697/15219)   Receiving objects:  45% (6849/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  46% (7001/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  47% (7153/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  48% (7306/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  49% (7458/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  50% (7610/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  51% (7762/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  52% (7914/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  53% (8067/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  54% (8219/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  55% (8371/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  56% (8523/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  57% (8675/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  58% (8828/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  59% (8980/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  60% (9132/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  61% (9284/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  62% (9436/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  63% (9588/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  64% (9741/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  65% (9893/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  66% (10045/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  67% (10197/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  68% (10349/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  69% (10502/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  70% (10654/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  71% (10806/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  72% (10958/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  73% (11110/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  74% (11263/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  75% (11415/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  76% (11567/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  77% (11719/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  78% (11871/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  79% (12024/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  80% (12176/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  81% (12328/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  82% (12480/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  83% (12632/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  84% (12784/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  85% (12937/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  86% (13089/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  87% (13241/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  88% (13393/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  89% (13545/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  90% (13698/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  91% (13850/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  92% (14002/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  93% (14154/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  94% (14306/15219), 956.00 KiB | 1.84 MiB/s   remote: Total 15219 (delta 9685), reused 15105 (delta 9592)[K
+Receiving objects:  95% (14459/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  96% (14611/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  97% (14763/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  98% (14915/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects:  99% (15067/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects: 100% (15219/15219), 956.00 KiB | 1.84 MiB/s   Receiving objects: 100% (15219/15219), 1.80 MiB | 1.84 MiB/s, done.
+Resolving deltas:   0% (0/9685)   Resolving deltas:   2% (265/9685)   Resolving deltas:   3% (343/9685)   Resolving deltas:   4% (430/9685)   Resolving deltas:   5% (488/9685)   Resolving deltas:   6% (625/9685)   Resolving deltas:   7% (679/9685)   Resolving deltas:   8% (791/9685)   Resolving deltas:   9% (873/9685)   Resolving deltas:  10% (982/9685)   Resolving deltas:  11% (1128/9685)   Resolving deltas:  12% (1244/9685)   Resolving deltas:  14% (1393/9685)   Resolving deltas:  15% (1454/9685)   Resolving deltas:  17% (1714/9685)   Resolving deltas:  18% (1759/9685)   Resolving deltas:  19% (1845/9685)   Resolving deltas:  20% (1991/9685)   Resolving deltas:  21% (2038/9685)   Resolving deltas:  22% (2143/9685)   Resolving deltas:  23% (2239/9685)   Resolving deltas:  24% (2325/9685)   Resolving deltas:  25% (2436/9685)   Resolving deltas:  26% (2577/9685)   Resolving deltas:  27% (2629/9685)   Resolving deltas:  28% (2722/9685)   Resolving deltas:  29% (2864/9685)   Resolving deltas:  30% (2925/9685)   Resolving deltas:  31% (3013/9685)   Resolving deltas:  32% (3166/9685)   Resolving deltas:  33% (3272/9685)   Resolving deltas:  34% (3348/9685)   Resolving deltas:  35% (3392/9685)   Resolving deltas:  36% (3508/9685)   Resolving deltas:  37% (3634/9685)   Resolving deltas:  38% (3745/9685)   Resolving deltas:  39% (3846/9685)   Resolving deltas:  40% (3947/9685)   Resolving deltas:  41% (3973/9685)   Resolving deltas:  42% (4080/9685)   Resolving deltas:  44% (4287/9685)   Resolving deltas:  45% (4368/9685)   Resolving deltas:  46% (4470/9685)   Resolving deltas:  47% (4553/9685)   Resolving deltas:  48% (4664/9685)   Resolving deltas:  49% (4753/9685)   Resolving deltas:  50% (4850/9685)   Resolving deltas:  51% (4952/9685)   Resolving deltas:  52% (5062/9685)   Resolving deltas:  53% (5136/9685)   Resolving deltas:  54% (5234/9685)   Resolving deltas:  55% (5352/9685)   Resolving deltas:  56% (5429/9685)   Resolving deltas:  57% (5522/9685)   Resolving deltas:  58% (5625/9685)   Resolving deltas:  59% (5720/9685)   Resolving deltas:  60% (5813/9685)   Resolving deltas:  61% (5917/9685)   Resolving deltas:  62% (6033/9685)   Resolving deltas:  63% (6110/9685)   Resolving deltas:  64% (6206/9685)   Resolving deltas:  65% (6298/9685)   Resolving deltas:  66% (6405/9685)   Resolving deltas:  67% (6508/9685)   Resolving deltas:  68% (6594/9685)   Resolving deltas:  69% (6684/9685)   Resolving deltas:  70% (6786/9685)   Resolving deltas:  71% (6898/9685)   Resolving deltas:  73% (7074/9685)   Resolving deltas:  75% (7297/9685)   Resolving deltas:  76% (7372/9685)   Resolving deltas:  77% (7504/9685)   Resolving deltas:  78% (7561/9685)   Resolving deltas:  79% (7662/9685)   Resolving deltas:  80% (7759/9685)   Resolving deltas:  81% (7897/9685)   Resolving deltas:  82% (7997/9685)   Resolving deltas:  83% (8046/9685)   Resolving deltas:  84% (8153/9685)   Resolving deltas:  85% (8251/9685)   Resolving deltas:  86% (8345/9685)   Resolving deltas:  87% (8446/9685)   Resolving deltas:  88% (8530/9685)   Resolving deltas:  89% (8671/9685)   Resolving deltas:  90% (8717/9685)   Resolving deltas:  91% (8820/9685)   Resolving deltas:  92% (8944/9685)   Resolving deltas:  93% (9015/9685)   Resolving deltas:  94% (9126/9685)   Resolving deltas:  95% (9211/9685)   Resolving deltas:  96% (9302/9685)   Resolving deltas:  97% (9396/9685)   Resolving deltas:  98% (9497/9685)   Resolving deltas:  99% (9609/9685)   Resolving deltas: 100% (9685/9685)   Resolving deltas: 100% (9685/9685), done.
+Fetching gem metadata from https://rubygems.org/.......
+Using rake (0.9.2.2) 
+Using ZenTest (4.8.2) 
+Using i18n (0.6.0) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.7) 
+Using builder (3.0.0) 
+Using activemodel (3.2.7) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.7) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.7) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.33) 
+Using activerecord (3.2.7) 
+Using activeresource (3.2.7) 
+Using autotest (4.4.6) 
+Using autotest-rails (4.1.2) 
+Using bundler (1.1.5) 
+Using coffee-script-source (1.3.3) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.4) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.7) 
+Using coffee-rails (3.2.2) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (2.0.2) 
+Using libv8 (3.3.10.4) 
+Using nokogiri (1.5.5) 
+Using rails (3.2.7) 
+Using rspec-core (2.11.1) from git://github.com/rspec/rspec-core.git (at master) 
+Using rspec-expectations (2.11.2) from git://github.com/rspec/rspec-expectations.git (at master) 
+Using rspec-mocks (2.11.2) from git://github.com/rspec/rspec-mocks.git (at master) 
+Using rspec (2.11.0) from git://github.com/rspec/rspec.git (at master) 
+Using rspec-rails (2.11.0) from git://github.com/rspec/rspec-rails.git (at master) 
+Using sass (3.2.0) 
+Using sass-rails (3.2.5) 
+Using sqlite3 (1.3.6) 
+Using therubyracer (0.10.2) 
+Using uglifier (1.2.7) 
+Using webrat (0.7.1) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ resp[K[K[Kspec spec/
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bundler/gems/rspec-core-8752b9aaa83a/lib/rspec/core/version.rb:4: warning: already initialized constant STRING
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bundler/gems/rspec-expectations-d427bac95e17/lib/rspec/expectations/version.rb:5: warning: already initialized constant STRING
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup': You have already activated rspec-core 2.0.1, but your Gemfile requires rspec-core 2.11.1. Using bundle exec may solve this. (Gem::LoadError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/setup.rb:7:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/boot.rb:6:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/application.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/environment.rb:2:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/spec_helper.rb:3:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `block in load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:18:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle exec rspec sepc/[K[K[K[Kpec/
+[32m.[0m[32m.[0m[33m*[0m
+
+Pending:
+[33m  PagesHelper add some examples to (or delete) /home/dudekpj/rails_projects/sample_app/spec/helpers/pages_helper_spec.rb[0m
+[36m    # No reason given[0m
+[36m    # ./spec/helpers/pages_helper_spec.rb:14[0m
+
+Finished in 0.37604 seconds
+[33m3 examples, 0 failures, 1 pending[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle exec rspec spec/
+[32m.[0m[32m.[0m
+
+Finished in 0.33292 seconds
+[32m2 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bundler/gems/rspec-core-8752b9aaa83a/lib/rspec/core/version.rb:4: warning: already initialized constant STRING
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bundler/gems/rspec-expectations-d427bac95e17/lib/rspec/expectations/version.rb:5: warning: already initialized constant STRING
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup': You have already activated rspec-core 2.0.1, but your Gemfile requires rspec-core 2.11.1. Using bundle exec may solve this. (Gem::LoadError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/setup.rb:7:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/boot.rb:6:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/application.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/environment.rb:2:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/spec_helper.rb:3:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `block in load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:18:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/[12@bundle exec [C[C[C[C[C[C[C[C[C[C[C
+[32m.[0m[32m.[0m
+
+Finished in 0.35966 seconds
+[32m2 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle exec rspec spec/[12P[C[C[C[C[C[C[C[C[C[C[C[12@bundle exec [C[C[C[C[C[C[C[C[C[C[C
+[32m.[0m[32m.[0m
+
+Finished in 0.35266 seconds
+[32m2 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle exec rspec spec/c ontrollers
+[32m.[0m[32m.[0m
+
+Finished in 0.34354 seconds
+[32m2 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ res[K[Kspec spec
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bundler/gems/rspec-core-8752b9aaa83a/lib/rspec/core/version.rb:4: warning: already initialized constant STRING
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bundler/gems/rspec-expectations-d427bac95e17/lib/rspec/expectations/version.rb:5: warning: already initialized constant STRING
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup': You have already activated rspec-core 2.0.1, but your Gemfile requires rspec-core 2.11.1. Using bundle exec may solve this. (Gem::LoadError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/setup.rb:7:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/boot.rb:6:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/application.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/environment.rb:2:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/spec_helper.rb:3:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `block in load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:18:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bundler/gems/rspec-core-8752b9aaa83a/lib/rspec/core/version.rb:4: warning: already initialized constant STRING
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bundler/gems/rspec-expectations-d427bac95e17/lib/rspec/expectations/version.rb:5: warning: already initialized constant STRING
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup': You have already activated rspec-core 2.0.1, but your Gemfile requires rspec-core 2.11.1. Using bundle exec may solve this. (Gem::LoadError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib/bundler/setup.rb:7:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:60:in `rescue in require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/boot.rb:6:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/application.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/config/environment.rb:2:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/spec_helper.rb:3:in `<top (required)>'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:1:in `<top (required)>'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `block in load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/configuration.rb:306:in `load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/command_line.rb:18:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:55:in `run_in_process'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:46:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.0.1/lib/rspec/core/runner.rb:10:in `block in autorun'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle exec rspec /sp[K[K[Kspec/
+[32m.[0m[32m.[0m
+
+Finished in 0.36055 seconds
+[32m2 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ gem uninstall rspec rspe c-rails rspec-expectations rspec-mick rspec-core
+
+You have requested to uninstall the gem:
+	rspec-2.0.1
+autotest-fsevent-0.2.8 depends on [rspec (>= 0)]
+autotest-growl-0.2.16 depends on [rspec (>= 0)]
+capybara-1.1.2 depends on [rspec (>= 2.0.0)]
+childprocess-0.3.5 depends on [rspec (>= 2.0.0)]
+diff-lcs-1.1.3 depends on [rspec (~> 2.0)]
+email_spec-1.2.1 depends on [rspec (~> 2.0)]
+factory_girl-4.0.0 depends on [rspec (~> 2.0)]
+libv8-3.11.8.3 depends on [rspec (>= 0)]
+oauth2-0.8.0 depends on [rspec (>= 0)]
+rest-client-1.6.7 depends on [rspec (>= 0)]
+rspec-rails-2.0.1 depends on [rspec (~> 2.0.0)]
+selenium-webdriver-2.25.0 depends on [rspec (~> 2.0)]
+sunspot_mongo-1.0.1 depends on [rspec (>= 0)]
+therubyracer-0.10.2 depends on [rspec (~> 2.0)]
+therubyracer-0.10.1 depends on [rspec (~> 2.0)]
+treetop-1.4.10 depends on [rspec (>= 2.0.0)]
+xpath-0.1.4 depends on [rspec (~> 2.0)]
+If you remove this gems, one or more dependencies will not be met.
+Continue with Uninstall? [Yn]  Y
+Successfully uninstalled rspec-2.0.1
+Successfully uninstalled rspec-rails-2.0.1
+
+You have requested to uninstall the gem:
+	rspec-expectations-2.0.1
+rspec-core-2.0.1 depends on [rspec-expectations (~> 2.0.1)]
+rspec-mocks-2.0.1 depends on [rspec-expectations (~> 2.0.1)]
+If you remove this gems, one or more dependencies will not be met.
+Continue with Uninstall? [Yn]  Y
+Successfully uninstalled rspec-expectations-2.0.1
+INFO:  gem "rspec-mick" is not installed
+
+You have requested to uninstall the gem:
+	rspec-core-2.0.1
+rspec-mocks-2.0.1 depends on [rspec-core (~> 2.0.1)]
+If you remove this gems, one or more dependencies will not be met.
+Continue with Uninstall? [Yn]  Y
+Remove executables:
+	rspec
+
+in addition to the gem? [Yn]  Y
+Removing rspec
+Successfully uninstalled rspec-core-2.0.1
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle install
+Using rake (0.9.2.2) 
+Using ZenTest (4.8.2) 
+Using i18n (0.6.0) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.7) 
+Using builder (3.0.0) 
+Using activemodel (3.2.7) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.7) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.7) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.33) 
+Using activerecord (3.2.7) 
+Using activeresource (3.2.7) 
+Using autotest (4.4.6) 
+Using autotest-rails (4.1.2) 
+Using coffee-script-source (1.3.3) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.4) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.7) 
+Using coffee-rails (3.2.2) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (2.0.2) 
+Using libv8 (3.3.10.4) 
+Using nokogiri (1.5.5) 
+Using bundler (1.1.5) 
+Using rails (3.2.7) 
+Using rspec-core (2.11.1) from git://github.com/rspec/rspec-core.git (at master) 
+Using rspec-expectations (2.11.2) from git://github.com/rspec/rspec-expectations.git (at master) 
+Using rspec-mocks (2.11.2) from git://github.com/rspec/rspec-mocks.git (at master) 
+Using rspec (2.11.0) from git://github.com/rspec/rspec.git (at master) 
+Using rspec-rails (2.11.0) from git://github.com/rspec/rspec-rails.git (at master) 
+Using sass (3.2.0) 
+Using sass-rails (3.2.5) 
+Using sqlite3 (1.3.6) 
+Using therubyracer (0.10.2) 
+Using uglifier (1.2.7) 
+Using webrat (0.7.1) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec -v
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:247:in `to_specs': Could not find rspec-core (>= 0) amongst [ZenTest-4.8.2, actionmailer-3.2.8, actionmailer-3.2.7, actionpack-3.2.8, actionpack-3.2.7, activemodel-3.2.8, activemodel-3.2.7, activerecord-3.2.8, activerecord-3.2.7, activeresource-3.2.8, activeresource-3.2.7, activesupport-3.2.8, activesupport-3.2.7, addressable-2.3.2, archive-tar-minitar-0.5.2, arel-3.0.2, autotest-4.4.6, autotest-4.3.2, autotest-fsevent-0.2.8, autotest-growl-0.2.16, autotest-rails-4.1.2, autotest-rails-pure-4.1.2, autotest-rails-pure-4.1.0, bson-1.6.4, bson_ext-1.6.4, builder-3.0.0, bundler-1.1.5, capybara-1.1.2, childprocess-0.3.5, coffee-rails-3.2.2, coffee-script-2.2.0, coffee-script-source-1.3.3, columnize-0.3.6, cucumber-1.2.1, cucumber-rails-1.3.0, database_cleaner-0.8.0, debugger-1.2.0, debugger-linecache-1.1.2, debugger-ruby_core_source-1.1.3, diff-lcs-1.1.3, email_spec-1.2.1, erubis-2.7.0, excon-0.16.1, excon-0.15.5, execjs-1.4.0, factory_girl-4.0.0, factory_girl_rails-4.0.0, faraday-0.8.4, faraday-0.8.1, ffi-1.1.5, gherkin-2.11.2, gherkin-2.11.1, hashie-1.2.0, heroku-2.30.3, heroku-2.30.2, heroku-api-0.3.4, heroku-api-0.3.2, hike-1.2.1, httpauth-0.1, i18n-0.6.0, journey-1.0.4, jquery-rails-2.1.1, jquery-rails-2.0.2, json-1.7.5, json-1.7.4, jwt-0.1.5, launchy-2.1.2, libv8-3.11.8.3-x86_64-linux, libv8-3.3.10.4-x86_64-linux, libwebsocket-0.1.5, linecache19-0.5.13, mail-2.4.4, mime-types-1.19, mongo-1.6.4, mongo-1.6.2, mongoid-3.0.4, mongoid-3.0.3, mongoid-3.0.1, mongoid-2.4.12, mongoid-rspec-1.5.4, mongoid-rspec-1.5.1, mongoid-rspec-1.4.5, moped-1.2.0, moped-1.1.6, multi_json-1.3.6, multipart-post-1.1.5, netrc-0.7.7, netrc-0.7.5, nokogiri-1.5.5, oauth2-0.8.0, omniauth-1.1.0, omniauth-github-1.0.2, omniauth-oauth2-1.1.0, origin-1.0.6, origin-1.0.5, plucky-0.5.1, polyglot-0.3.3, pr_geohash-1.0.0, rack-1.4.1, rack-cache-1.2, rack-ssl-1.3.2, rack-test-0.6.1, rails-3.2.8, rails-3.2.7, railties-3.2.8, railties-3.2.7, rake-0.9.2.2, rdoc-3.12, rest-client-1.6.7, rsolr-1.0.8, rspec-mocks-2.11.2, rspec-mocks-2.11.1, rspec-mocks-2.0.1, ruby-debug-base19x-0.11.30.pre10, ruby-debug-ide-0.4.17.beta14, ruby_core_source-0.1.5, rubygems-bundler-1.0.7, rubygems-bundler-1.0.4, rubyzip-0.9.9, rvm-1.11.3.5, sass-3.2.1, sass-3.2.0, sass-3.1.20, sass-rails-3.2.5, selenium-webdriver-2.25.0, sprockets-2.4.5, sprockets-2.1.3, sqlite3-1.3.6, sqlite3-ruby-1.3.3, sqlite3-ruby-1.3.1, sqlite3-ruby-1.2.5, sunspot-2.0.0.pre.120720, sunspot-1.3.3, sunspot_mongo-1.0.1, sunspot_mongoid-0.4.1, sunspot_rails-2.0.0.pre.120720, sunspot_rails-1.3.3, sunspot_solr-1.3.3, sys-uname-0.9.0, therubyracer-0.10.2, therubyracer-0.10.1, thor-0.16.0, thor-0.15.4, tilt-1.3.3, treetop-1.4.10, tzinfo-0.3.33, uglifier-1.2.7, webrat-0.7.3, webrat-0.7.1, will_paginate-3.0.3, will_paginate_mongoid-1.0.5, xpath-0.1.4] (Gem::LoadError)
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:256:in `to_spec'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems.rb:1231:in `gem'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bin/rspec:22:in `<main>'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle install [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krspec spec/
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:247:in `to_specs': Could not find rspec-core (>= 0) amongst [ZenTest-4.8.2, actionmailer-3.2.8, actionmailer-3.2.7, actionpack-3.2.8, actionpack-3.2.7, activemodel-3.2.8, activemodel-3.2.7, activerecord-3.2.8, activerecord-3.2.7, activeresource-3.2.8, activeresource-3.2.7, activesupport-3.2.8, activesupport-3.2.7, addressable-2.3.2, archive-tar-minitar-0.5.2, arel-3.0.2, autotest-4.4.6, autotest-4.3.2, autotest-fsevent-0.2.8, autotest-growl-0.2.16, autotest-rails-4.1.2, autotest-rails-pure-4.1.2, autotest-rails-pure-4.1.0, bson-1.6.4, bson_ext-1.6.4, builder-3.0.0, bundler-1.1.5, capybara-1.1.2, childprocess-0.3.5, coffee-rails-3.2.2, coffee-script-2.2.0, coffee-script-source-1.3.3, columnize-0.3.6, cucumber-1.2.1, cucumber-rails-1.3.0, database_cleaner-0.8.0, debugger-1.2.0, debugger-linecache-1.1.2, debugger-ruby_core_source-1.1.3, diff-lcs-1.1.3, email_spec-1.2.1, erubis-2.7.0, excon-0.16.1, excon-0.15.5, execjs-1.4.0, factory_girl-4.0.0, factory_girl_rails-4.0.0, faraday-0.8.4, faraday-0.8.1, ffi-1.1.5, gherkin-2.11.2, gherkin-2.11.1, hashie-1.2.0, heroku-2.30.3, heroku-2.30.2, heroku-api-0.3.4, heroku-api-0.3.2, hike-1.2.1, httpauth-0.1, i18n-0.6.0, journey-1.0.4, jquery-rails-2.1.1, jquery-rails-2.0.2, json-1.7.5, json-1.7.4, jwt-0.1.5, launchy-2.1.2, libv8-3.11.8.3-x86_64-linux, libv8-3.3.10.4-x86_64-linux, libwebsocket-0.1.5, linecache19-0.5.13, mail-2.4.4, mime-types-1.19, mongo-1.6.4, mongo-1.6.2, mongoid-3.0.4, mongoid-3.0.3, mongoid-3.0.1, mongoid-2.4.12, mongoid-rspec-1.5.4, mongoid-rspec-1.5.1, mongoid-rspec-1.4.5, moped-1.2.0, moped-1.1.6, multi_json-1.3.6, multipart-post-1.1.5, netrc-0.7.7, netrc-0.7.5, nokogiri-1.5.5, oauth2-0.8.0, omniauth-1.1.0, omniauth-github-1.0.2, omniauth-oauth2-1.1.0, origin-1.0.6, origin-1.0.5, plucky-0.5.1, polyglot-0.3.3, pr_geohash-1.0.0, rack-1.4.1, rack-cache-1.2, rack-ssl-1.3.2, rack-test-0.6.1, rails-3.2.8, rails-3.2.7, railties-3.2.8, railties-3.2.7, rake-0.9.2.2, rdoc-3.12, rest-client-1.6.7, rsolr-1.0.8, rspec-mocks-2.11.2, rspec-mocks-2.11.1, rspec-mocks-2.0.1, ruby-debug-base19x-0.11.30.pre10, ruby-debug-ide-0.4.17.beta14, ruby_core_source-0.1.5, rubygems-bundler-1.0.7, rubygems-bundler-1.0.4, rubyzip-0.9.9, rvm-1.11.3.5, sass-3.2.1, sass-3.2.0, sass-3.1.20, sass-rails-3.2.5, selenium-webdriver-2.25.0, sprockets-2.4.5, sprockets-2.1.3, sqlite3-1.3.6, sqlite3-ruby-1.3.3, sqlite3-ruby-1.3.1, sqlite3-ruby-1.2.5, sunspot-2.0.0.pre.120720, sunspot-1.3.3, sunspot_mongo-1.0.1, sunspot_mongoid-0.4.1, sunspot_rails-2.0.0.pre.120720, sunspot_rails-1.3.3, sunspot_solr-1.3.3, sys-uname-0.9.0, therubyracer-0.10.2, therubyracer-0.10.1, thor-0.16.0, thor-0.15.4, tilt-1.3.3, treetop-1.4.10, tzinfo-0.3.33, uglifier-1.2.7, webrat-0.7.3, webrat-0.7.1, will_paginate-3.0.3, will_paginate_mongoid-1.0.5, xpath-0.1.4] (Gem::LoadError)
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:256:in `to_spec'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems.rb:1231:in `gem'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bin/rspec:22:in `<main>'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ gem in[K[K[K[K[K[Kbundle install
+Using rake (0.9.2.2) 
+Using ZenTest (4.8.2) 
+Using i18n (0.6.0) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.7) 
+Using builder (3.0.0) 
+Using activemodel (3.2.7) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.7) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.7) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.33) 
+Using activerecord (3.2.7) 
+Using activeresource (3.2.7) 
+Using autotest (4.4.6) 
+Using autotest-rails (4.1.2) 
+Using coffee-script-source (1.3.3) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.4) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.7) 
+Using coffee-rails (3.2.2) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (2.0.2) 
+Using libv8 (3.3.10.4) 
+Using nokogiri (1.5.5) 
+Using bundler (1.1.5) 
+Using rails (3.2.7) 
+Using rspec-core (2.11.1) from git://github.com/rspec/rspec-core.git (at master) 
+Using rspec-expectations (2.11.2) from git://github.com/rspec/rspec-expectations.git (at master) 
+Using rspec-mocks (2.11.2) from git://github.com/rspec/rspec-mocks.git (at master) 
+Using rspec (2.11.0) from git://github.com/rspec/rspec.git (at master) 
+Using rspec-rails (2.11.0) from git://github.com/rspec/rspec-rails.git (at master) 
+Using sass (3.2.0) 
+Using sass-rails (3.2.5) 
+Using sqlite3 (1.3.6) 
+Using therubyracer (0.10.2) 
+Using uglifier (1.2.7) 
+Using webrat (0.7.1) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ gem rspec[K[K[K[K[K[K[K[K[Kbundle show rspec-mocks
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bundler/gems/rspec-mocks-90f3ebb439da
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec -v
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:247:in `to_specs': Could not find rspec-core (>= 0) amongst [ZenTest-4.8.2, actionmailer-3.2.8, actionmailer-3.2.7, actionpack-3.2.8, actionpack-3.2.7, activemodel-3.2.8, activemodel-3.2.7, activerecord-3.2.8, activerecord-3.2.7, activeresource-3.2.8, activeresource-3.2.7, activesupport-3.2.8, activesupport-3.2.7, addressable-2.3.2, archive-tar-minitar-0.5.2, arel-3.0.2, autotest-4.4.6, autotest-4.3.2, autotest-fsevent-0.2.8, autotest-growl-0.2.16, autotest-rails-4.1.2, autotest-rails-pure-4.1.2, autotest-rails-pure-4.1.0, bson-1.6.4, bson_ext-1.6.4, builder-3.0.0, bundler-1.1.5, capybara-1.1.2, childprocess-0.3.5, coffee-rails-3.2.2, coffee-script-2.2.0, coffee-script-source-1.3.3, columnize-0.3.6, cucumber-1.2.1, cucumber-rails-1.3.0, database_cleaner-0.8.0, debugger-1.2.0, debugger-linecache-1.1.2, debugger-ruby_core_source-1.1.3, diff-lcs-1.1.3, email_spec-1.2.1, erubis-2.7.0, excon-0.16.1, excon-0.15.5, execjs-1.4.0, factory_girl-4.0.0, factory_girl_rails-4.0.0, faraday-0.8.4, faraday-0.8.1, ffi-1.1.5, gherkin-2.11.2, gherkin-2.11.1, hashie-1.2.0, heroku-2.30.3, heroku-2.30.2, heroku-api-0.3.4, heroku-api-0.3.2, hike-1.2.1, httpauth-0.1, i18n-0.6.0, journey-1.0.4, jquery-rails-2.1.1, jquery-rails-2.0.2, json-1.7.5, json-1.7.4, jwt-0.1.5, launchy-2.1.2, libv8-3.11.8.3-x86_64-linux, libv8-3.3.10.4-x86_64-linux, libwebsocket-0.1.5, linecache19-0.5.13, mail-2.4.4, mime-types-1.19, mongo-1.6.4, mongo-1.6.2, mongoid-3.0.4, mongoid-3.0.3, mongoid-3.0.1, mongoid-2.4.12, mongoid-rspec-1.5.4, mongoid-rspec-1.5.1, mongoid-rspec-1.4.5, moped-1.2.0, moped-1.1.6, multi_json-1.3.6, multipart-post-1.1.5, netrc-0.7.7, netrc-0.7.5, nokogiri-1.5.5, oauth2-0.8.0, omniauth-1.1.0, omniauth-github-1.0.2, omniauth-oauth2-1.1.0, origin-1.0.6, origin-1.0.5, plucky-0.5.1, polyglot-0.3.3, pr_geohash-1.0.0, rack-1.4.1, rack-cache-1.2, rack-ssl-1.3.2, rack-test-0.6.1, rails-3.2.8, rails-3.2.7, railties-3.2.8, railties-3.2.7, rake-0.9.2.2, rdoc-3.12, rest-client-1.6.7, rsolr-1.0.8, rspec-mocks-2.11.2, rspec-mocks-2.11.1, rspec-mocks-2.0.1, ruby-debug-base19x-0.11.30.pre10, ruby-debug-ide-0.4.17.beta14, ruby_core_source-0.1.5, rubygems-bundler-1.0.7, rubygems-bundler-1.0.4, rubyzip-0.9.9, rvm-1.11.3.5, sass-3.2.1, sass-3.2.0, sass-3.1.20, sass-rails-3.2.5, selenium-webdriver-2.25.0, sprockets-2.4.5, sprockets-2.1.3, sqlite3-1.3.6, sqlite3-ruby-1.3.3, sqlite3-ruby-1.3.1, sqlite3-ruby-1.2.5, sunspot-2.0.0.pre.120720, sunspot-1.3.3, sunspot_mongo-1.0.1, sunspot_mongoid-0.4.1, sunspot_rails-2.0.0.pre.120720, sunspot_rails-1.3.3, sunspot_solr-1.3.3, sys-uname-0.9.0, therubyracer-0.10.2, therubyracer-0.10.1, thor-0.16.0, thor-0.15.4, tilt-1.3.3, treetop-1.4.10, tzinfo-0.3.33, uglifier-1.2.7, webrat-0.7.3, webrat-0.7.1, will_paginate-3.0.3, will_paginate_mongoid-1.0.5, xpath-0.1.4] (Gem::LoadError)
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:256:in `to_spec'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems.rb:1231:in `gem'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bin/rspec:22:in `<main>'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bundle [K[K[K[K[K[K[Kgem install [K[K[K[K[K[K[K[K[K[K[K[Kbundle update
+Updating git://github.com/rspec/rspec-rails.git
+Updating git://github.com/rspec/rspec.git
+Updating git://github.com/rspec/rspec-core.git
+Updating git://github.com/rspec/rspec-expectations.git
+Updating git://github.com/rspec/rspec-mocks.git
+Fetching gem metadata from https://rubygems.org/.......
+Using rake (0.9.2.2) 
+Using ZenTest (4.8.2) 
+Using i18n (0.6.0) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.7) 
+Using builder (3.0.0) 
+Using activemodel (3.2.7) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.7) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.7) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.33) 
+Using activerecord (3.2.7) 
+Using activeresource (3.2.7) 
+Using autotest (4.4.6) 
+Using autotest-rails (4.1.2) 
+Using bundler (1.1.5) 
+Using coffee-script-source (1.3.3) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.5) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.7) 
+Using coffee-rails (3.2.2) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (2.1.1) 
+Using libv8 (3.3.10.4) 
+Using nokogiri (1.5.5) 
+Using rails (3.2.7) 
+Using rspec-core (2.11.1) from git://github.com/rspec/rspec-core.git (at master) 
+Using rspec-expectations (2.11.2) from git://github.com/rspec/rspec-expectations.git (at master) 
+Using rspec-mocks (2.11.2) from git://github.com/rspec/rspec-mocks.git (at master) 
+Using rspec (2.11.0) from git://github.com/rspec/rspec.git (at master) 
+Using rspec-rails (2.11.0) from git://github.com/rspec/rspec-rails.git (at master) 
+Using sass (3.2.1) 
+Using sass-rails (3.2.5) 
+Using sqlite3 (1.3.6) 
+Using therubyracer (0.10.2) 
+Using uglifier (1.2.7) 
+Using webrat (0.7.3) 
+[32mYour bundle is updated! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec -v
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:247:in `to_specs': Could not find rspec-core (>= 0) amongst [ZenTest-4.8.2, actionmailer-3.2.8, actionmailer-3.2.7, actionpack-3.2.8, actionpack-3.2.7, activemodel-3.2.8, activemodel-3.2.7, activerecord-3.2.8, activerecord-3.2.7, activeresource-3.2.8, activeresource-3.2.7, activesupport-3.2.8, activesupport-3.2.7, addressable-2.3.2, archive-tar-minitar-0.5.2, arel-3.0.2, autotest-4.4.6, autotest-4.3.2, autotest-fsevent-0.2.8, autotest-growl-0.2.16, autotest-rails-4.1.2, autotest-rails-pure-4.1.2, autotest-rails-pure-4.1.0, bson-1.6.4, bson_ext-1.6.4, builder-3.0.0, bundler-1.1.5, capybara-1.1.2, childprocess-0.3.5, coffee-rails-3.2.2, coffee-script-2.2.0, coffee-script-source-1.3.3, columnize-0.3.6, cucumber-1.2.1, cucumber-rails-1.3.0, database_cleaner-0.8.0, debugger-1.2.0, debugger-linecache-1.1.2, debugger-ruby_core_source-1.1.3, diff-lcs-1.1.3, email_spec-1.2.1, erubis-2.7.0, excon-0.16.1, excon-0.15.5, execjs-1.4.0, factory_girl-4.0.0, factory_girl_rails-4.0.0, faraday-0.8.4, faraday-0.8.1, ffi-1.1.5, gherkin-2.11.2, gherkin-2.11.1, hashie-1.2.0, heroku-2.30.3, heroku-2.30.2, heroku-api-0.3.4, heroku-api-0.3.2, hike-1.2.1, httpauth-0.1, i18n-0.6.0, journey-1.0.4, jquery-rails-2.1.1, jquery-rails-2.0.2, json-1.7.5, json-1.7.4, jwt-0.1.5, launchy-2.1.2, libv8-3.11.8.3-x86_64-linux, libv8-3.3.10.4-x86_64-linux, libwebsocket-0.1.5, linecache19-0.5.13, mail-2.4.4, mime-types-1.19, mongo-1.6.4, mongo-1.6.2, mongoid-3.0.4, mongoid-3.0.3, mongoid-3.0.1, mongoid-2.4.12, mongoid-rspec-1.5.4, mongoid-rspec-1.5.1, mongoid-rspec-1.4.5, moped-1.2.0, moped-1.1.6, multi_json-1.3.6, multipart-post-1.1.5, netrc-0.7.7, netrc-0.7.5, nokogiri-1.5.5, oauth2-0.8.0, omniauth-1.1.0, omniauth-github-1.0.2, omniauth-oauth2-1.1.0, origin-1.0.6, origin-1.0.5, plucky-0.5.1, polyglot-0.3.3, pr_geohash-1.0.0, rack-1.4.1, rack-cache-1.2, rack-ssl-1.3.2, rack-test-0.6.1, rails-3.2.8, rails-3.2.7, railties-3.2.8, railties-3.2.7, rake-0.9.2.2, rdoc-3.12, rest-client-1.6.7, rsolr-1.0.8, rspec-mocks-2.11.2, rspec-mocks-2.11.1, rspec-mocks-2.0.1, ruby-debug-base19x-0.11.30.pre10, ruby-debug-ide-0.4.17.beta14, ruby_core_source-0.1.5, rubygems-bundler-1.0.7, rubygems-bundler-1.0.4, rubyzip-0.9.9, rvm-1.11.3.5, sass-3.2.1, sass-3.2.0, sass-3.1.20, sass-rails-3.2.5, selenium-webdriver-2.25.0, sprockets-2.4.5, sprockets-2.1.3, sqlite3-1.3.6, sqlite3-ruby-1.3.3, sqlite3-ruby-1.3.1, sqlite3-ruby-1.2.5, sunspot-2.0.0.pre.120720, sunspot-1.3.3, sunspot_mongo-1.0.1, sunspot_mongoid-0.4.1, sunspot_rails-2.0.0.pre.120720, sunspot_rails-1.3.3, sunspot_solr-1.3.3, sys-uname-0.9.0, therubyracer-0.10.2, therubyracer-0.10.1, thor-0.16.0, thor-0.15.4, tilt-1.3.3, treetop-1.4.10, tzinfo-0.3.33, uglifier-1.2.7, webrat-0.7.3, webrat-0.7.1, will_paginate-3.0.3, will_paginate_mongoid-1.0.5, xpath-0.1.4] (Gem::LoadError)
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:256:in `to_spec'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems.rb:1231:in `gem'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bin/rspec:22:in `<main>'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:247:in `to_specs': Could not find rspec-core (>= 0) amongst [ZenTest-4.8.2, actionmailer-3.2.8, actionmailer-3.2.7, actionpack-3.2.8, actionpack-3.2.7, activemodel-3.2.8, activemodel-3.2.7, activerecord-3.2.8, activerecord-3.2.7, activeresource-3.2.8, activeresource-3.2.7, activesupport-3.2.8, activesupport-3.2.7, addressable-2.3.2, archive-tar-minitar-0.5.2, arel-3.0.2, autotest-4.4.6, autotest-4.3.2, autotest-fsevent-0.2.8, autotest-growl-0.2.16, autotest-rails-4.1.2, autotest-rails-pure-4.1.2, autotest-rails-pure-4.1.0, bson-1.6.4, bson_ext-1.6.4, builder-3.0.0, bundler-1.1.5, capybara-1.1.2, childprocess-0.3.5, coffee-rails-3.2.2, coffee-script-2.2.0, coffee-script-source-1.3.3, columnize-0.3.6, cucumber-1.2.1, cucumber-rails-1.3.0, database_cleaner-0.8.0, debugger-1.2.0, debugger-linecache-1.1.2, debugger-ruby_core_source-1.1.3, diff-lcs-1.1.3, email_spec-1.2.1, erubis-2.7.0, excon-0.16.1, excon-0.15.5, execjs-1.4.0, factory_girl-4.0.0, factory_girl_rails-4.0.0, faraday-0.8.4, faraday-0.8.1, ffi-1.1.5, gherkin-2.11.2, gherkin-2.11.1, hashie-1.2.0, heroku-2.30.3, heroku-2.30.2, heroku-api-0.3.4, heroku-api-0.3.2, hike-1.2.1, httpauth-0.1, i18n-0.6.0, journey-1.0.4, jquery-rails-2.1.1, jquery-rails-2.0.2, json-1.7.5, json-1.7.4, jwt-0.1.5, launchy-2.1.2, libv8-3.11.8.3-x86_64-linux, libv8-3.3.10.4-x86_64-linux, libwebsocket-0.1.5, linecache19-0.5.13, mail-2.4.4, mime-types-1.19, mongo-1.6.4, mongo-1.6.2, mongoid-3.0.4, mongoid-3.0.3, mongoid-3.0.1, mongoid-2.4.12, mongoid-rspec-1.5.4, mongoid-rspec-1.5.1, mongoid-rspec-1.4.5, moped-1.2.0, moped-1.1.6, multi_json-1.3.6, multipart-post-1.1.5, netrc-0.7.7, netrc-0.7.5, nokogiri-1.5.5, oauth2-0.8.0, omniauth-1.1.0, omniauth-github-1.0.2, omniauth-oauth2-1.1.0, origin-1.0.6, origin-1.0.5, plucky-0.5.1, polyglot-0.3.3, pr_geohash-1.0.0, rack-1.4.1, rack-cache-1.2, rack-ssl-1.3.2, rack-test-0.6.1, rails-3.2.8, rails-3.2.7, railties-3.2.8, railties-3.2.7, rake-0.9.2.2, rdoc-3.12, rest-client-1.6.7, rsolr-1.0.8, rspec-mocks-2.11.2, rspec-mocks-2.11.1, rspec-mocks-2.0.1, ruby-debug-base19x-0.11.30.pre10, ruby-debug-ide-0.4.17.beta14, ruby_core_source-0.1.5, rubygems-bundler-1.0.7, rubygems-bundler-1.0.4, rubyzip-0.9.9, rvm-1.11.3.5, sass-3.2.1, sass-3.2.0, sass-3.1.20, sass-rails-3.2.5, selenium-webdriver-2.25.0, sprockets-2.4.5, sprockets-2.1.3, sqlite3-1.3.6, sqlite3-ruby-1.3.3, sqlite3-ruby-1.3.1, sqlite3-ruby-1.2.5, sunspot-2.0.0.pre.120720, sunspot-1.3.3, sunspot_mongo-1.0.1, sunspot_mongoid-0.4.1, sunspot_rails-2.0.0.pre.120720, sunspot_rails-1.3.3, sunspot_solr-1.3.3, sys-uname-0.9.0, therubyracer-0.10.2, therubyracer-0.10.1, thor-0.16.0, thor-0.15.4, tilt-1.3.3, treetop-1.4.10, tzinfo-0.3.33, uglifier-1.2.7, webrat-0.7.3, webrat-0.7.1, will_paginate-3.0.3, will_paginate_mongoid-1.0.5, xpath-0.1.4] (Gem::LoadError)
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb:256:in `to_spec'
+	from /home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems.rb:1231:in `gem'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/bin/rspec:22:in `<main>'
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ gem install [K[K[K[K[K[K[K[K[K[K[K[Kbundle update
+Fetching gem metadata from https://rubygems.org/.......
+Using rake (0.9.2.2) 
+Using i18n (0.6.0) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.7) 
+Using builder (3.0.0) 
+Using activemodel (3.2.7) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.7) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.7) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.33) 
+Using activerecord (3.2.7) 
+Using activeresource (3.2.7) 
+Using bundler (1.1.5) 
+Using coffee-script-source (1.3.3) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.5) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.7) 
+Using coffee-rails (3.2.2) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (2.1.1) 
+Using libv8 (3.3.10.4) 
+Using nokogiri (1.5.5) 
+Using rails (3.2.7) 
+Installing rspec-core (2.11.1) 
+Installing rspec-expectations (2.11.2) 
+Using rspec-mocks (2.11.2) 
+Installing rspec (2.11.0) 
+Installing rspec-rails (2.11.0) 
+Using sass (3.2.1) 
+Using sass-rails (3.2.5) 
+Using sqlite3 (1.3.6) 
+Using therubyracer (0.10.2) 
+Using uglifier (1.2.7) 
+Using webrat (0.7.3) 
+[32mYour bundle is updated! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ bu[K[Kbundle install
+Using rake (0.9.2.2) 
+Using i18n (0.6.0) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.7) 
+Using builder (3.0.0) 
+Using activemodel (3.2.7) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.7) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.7) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.33) 
+Using activerecord (3.2.7) 
+Using activeresource (3.2.7) 
+Using coffee-script-source (1.3.3) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.5) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.7) 
+Using coffee-rails (3.2.2) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (2.1.1) 
+Using libv8 (3.3.10.4) 
+Using nokogiri (1.5.5) 
+Using bundler (1.1.5) 
+Using rails (3.2.7) 
+Using rspec-core (2.11.1) 
+Using rspec-expectations (2.11.2) 
+Using rspec-mocks (2.11.2) 
+Using rspec (2.11.0) 
+Using rspec-rails (2.11.0) 
+Using sass (3.2.1) 
+Using sass-rails (3.2.5) 
+Using sqlite3 (1.3.6) 
+Using therubyracer (0.10.2) 
+Using uglifier (1.2.7) 
+Using webrat (0.7.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rsep[K[K[K[Krspec
+[32m.[0m[32m.[0m
+
+Finished in 0.25225 seconds
+[32m2 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ autotest
+loading autotest/rails_rspec2
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m
+
+Finished in 0.32367 seconds
+[32m2 examples, 0 failures[0m
+^CInterrupt a second time to quit
+^C]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ c[Kb[Krspec spec/
+[32m.[0m[32m.[0m
+
+Finished in 0.26087 seconds
+[32m2 examples, 0 failures[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ rspec spec/
+[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) PagesController GET 'about' should be successful
+     [31mFailure/Error:[0m [31mget 'about'[0m
+     [31mActionController::RoutingError:[0m
+       [31mNo route matches {:controller=>"pages", :action=>"about"}[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:21:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.33517 seconds
+[31m3 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:20[0m [36m# PagesController GET 'about' should be successful[0m
+]0;dudekpj@dudekpj-VirtualBox: ~/rails_projects/sample_appdudekpj@dudekpj-VirtualBox:~/rails_projects/sample_app$ autotest
+loading autotest/rails_rspec2
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) PagesController GET 'about' should be successful
+     [31mFailure/Error:[0m [31mget 'about'[0m
+     [31mActionController::RoutingError:[0m
+       [31mNo route matches {:controller=>"pages", :action=>"about"}[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:21:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.36835 seconds
+[31m3 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:20[0m [36m# PagesController GET 'about' should be successful[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) PagesController GET 'about' should be successful
+     [31mFailure/Error:[0m [31mget 'about'[0m
+     [31mActionController::RoutingError:[0m
+       [31mNo route matches {:controller=>"pages", :action=>"about"}[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:21:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.34523 seconds
+[31m3 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:20[0m [36m# PagesController GET 'about' should be successful[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) PagesController GET 'about' should be successful
+     [31mFailure/Error:[0m [31mget 'about'[0m
+     [31mActionController::RoutingError:[0m
+       [31mNo route matches {:controller=>"pages", :action=>"about"}[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:21:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.46512 seconds
+[31m3 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:20[0m [36m# PagesController GET 'about' should be successful[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) PagesController GET 'about' should be successful
+     [31mFailure/Error:[0m [31mget 'about'[0m
+     [31mActionController::RoutingError:[0m
+       [31mNo route matches {:controller=>"pages", :action=>"about"}[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:21:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.44866 seconds
+[31m3 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:20[0m [36m# PagesController GET 'about' should be successful[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) PagesController GET 'about' should be successful
+     [31mFailure/Error:[0m [31mget 'about'[0m
+     [31mActionView::MissingTemplate:[0m
+       [31mMissing template pages/about, application/about with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:[0m
+       [31m  * "#<RSpec::Rails::ViewRendering::EmptyTemplatePathSetDecorator:0x00000003fed280>"[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:21:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.43319 seconds
+[31m3 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:20[0m [36m# PagesController GET 'about' should be successful[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) PagesController GET 'about' should be successful
+     [31mFailure/Error:[0m [31mget 'about'[0m
+     [31mActionView::MissingTemplate:[0m
+       [31mMissing template pages/about, application/about with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:[0m
+       [31m  * "#<RSpec::Rails::ViewRendering::EmptyTemplatePathSetDecorator:0x00000004860de0>"[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:21:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.36741 seconds
+[31m3 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:20[0m [36m# PagesController GET 'about' should be successful[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) PagesController GET 'about' should be successful
+     [31mFailure/Error:[0m [31mget 'about'[0m
+     [31mActionView::MissingTemplate:[0m
+       [31mMissing template pages/about, application/about with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:[0m
+       [31m  * "#<RSpec::Rails::ViewRendering::EmptyTemplatePathSetDecorator:0x000000048eeca8>"[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:21:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.36446 seconds
+[31m3 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:20[0m [36m# PagesController GET 'about' should be successful[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.37502 seconds
+[32m3 examples, 0 failures[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.37541 seconds
+[32m3 examples, 0 failures[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.33567 seconds
+[32m3 examples, 0 failures[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/lib/rspec/core/configuration.rb:780:in `load': /home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb:25: syntax error, unexpected $end, expecting keyword_end (SyntaxError)
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/lib/rspec/core/configuration.rb:780:in `block in load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/lib/rspec/core/configuration.rb:780:in `map'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/lib/rspec/core/configuration.rb:780:in `load_spec_files'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/lib/rspec/core/command_line.rb:22:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/lib/rspec/core/runner.rb:69:in `run'
+	from /home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/lib/rspec/core/runner.rb:8:in `block in autorun'
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.44866 seconds
+[32m3 examples, 0 failures[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.35679 seconds
+[32m3 examples, 0 failures[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.4771 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.82841 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.38766 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.38553 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.42364 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.41107 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.38085 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.36854 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.40859 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.51686 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.42936 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.38063 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <title>Ruby on Rails Tutorial Sample App | Home</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.45882 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "1")[0m
+       [31mexpected following output to contain a <title>1</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.38348 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "1")[0m
+       [31mexpected following output to contain a <title>1</title> tag:[0m
+       [31m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">[0m
+[36m     # ./spec/controllers/pages_controller_spec.rb:13:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.37207 seconds
+[31m4 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/controllers/pages_controller_spec.rb:11[0m [36m# PagesController GET 'home' should have the right title[0m
+/home/dudekpj/.rvm/rubies/ruby-1.9.3-p194/bin/ruby -rrubygems -S '/home/dudekpj/.rvm/gems/ruby-1.9.3-p194/gems/rspec-core-2.11.1/exe/rspec' --tty '/home/dudekpj/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title", :content => "Ruby on Rails Tutorial Sample App | Home")[0m
+       [31mexpected following output to contain a <titl
